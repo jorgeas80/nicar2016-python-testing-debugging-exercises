@@ -5,5 +5,9 @@ class SimpleResultLoader(object):
         return result
 
     def load(self, s):
-        parsed = json.loads(s)
+        try:
+            parsed = json.loads(s)
+        except ValueError:
+            return []
+
         return [self.handle_result(r) for r in parsed['results']]
