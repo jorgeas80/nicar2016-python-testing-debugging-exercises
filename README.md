@@ -11,15 +11,21 @@ Testing and Debugging News Applications in Python
 ## Roadmap
 
 * Running tests 
-* Reading a traceback
-* Outputting debugging messages
+* Reading error messages 
+* Unit testing
 * Writing testable code
+* Outputting debugging messages
+* Debugging with pdb
 
 ## Getting started
 
 Clone the this repository:
 
-    git clone origin 
+    git clone https://github.com/ghing/nicar2016-python-testing-debugging-exercises.git
+
+All further commands will be run from the top-level of the checked-out local copy of the repository:
+
+    cd nicar2016-python-testing-debugging-excercises
 
 
 ## Running tests
@@ -158,8 +164,35 @@ The execution that eventually caused the error starts in our test case.
 
 Update the result loader so it catches the `ValueError` and returns an empty list.  From the traceback, can you see where we should look to fix our code?
 
+## Unit testing
 
+Unit testing is named because it involves testing the smallest possible "unit" in your code.  This usually means a function, procedure or method. This ensures that tests run quickly but also encourages us to organize our code in small, reusable pieces where each piece has a clear and specific purpose.
 
+Consider `ApStyleNumbersTestCase.test_format_cardinal_number` in `tests/test_apstyle.py`:
+
+    class ApStyleNumbersTestCase(unittest.TestCase):
+        def test_format_cardinal_number(self):
+            self.assertEqual(format_cardinal_number(1), "one")
+            self.assertEqual(format_cardinal_number(10), "10")
+            self.assertEqual(format_cardinal_number(1050), "1,050")
+            self.assertEqual(format_cardinal_number(2000000), "2 million")
+
+What's the "unit"?
+
+You can see from the assertions that the test is calling `format_cardinal_number()` with different inputs and comparing the return value with expected results.  In this test, `format_cardinal_number()` is the "unit" under test.
+
+## Writing testable code
+
+  To make our code easily testable, we should break pieces of functionality into separate functions, methods, classes an modules.  We should strive toward test-driven development, where we write tests first to define the "contract" between our code and its inputs and outputs.  However, in a newsroom environment, it can sometimes be difficult to rigorously follow disciplined software engineering practices.  Even when we don't write tests first, or write tests at all, it's a good practice to think about how you would test a piece of code.  If the answer to that question isn't clear, you might want to refactor the code.
+
+## Other kinds of testing
+
+* Integration tests
+
+## Next steps
+
+* Mocks
+* Continuous integration
 
 ## Outputting debugging messages
 
@@ -169,7 +202,6 @@ Update the result loader so it catches the `ValueError` and returns an empty lis
 
 ### repr() methods in your classes
 
-## Writing testable code
 
 ### Being explicit about assumptions with `assert`
 
