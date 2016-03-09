@@ -11,15 +11,21 @@ Testing and Debugging News Applications in Python
 ## Roadmap
 
 * Running tests 
-* Reading a traceback
-* Outputting debugging messages
+* Reading error messages 
+* Unit testing
 * Writing testable code
+* Outputting debugging messages
+* Debugging with pdb
 
 ## Getting started
 
 Clone the this repository:
 
-    git clone origin 
+    git clone https://github.com/ghing/nicar2016-python-testing-debugging-exercises.git
+
+All further commands will be run from the top-level of the checked-out local copy of the repository:
+
+    cd nicar2016-python-testing-debugging-excercises
 
 
 ## Running tests
@@ -158,8 +164,94 @@ The execution that eventually caused the error starts in our test case.
 
 Update the result loader so it catches the `ValueError` and returns an empty list.  From the traceback, can you see where we should look to fix our code?
 
+## Unit testing
 
+Unit testing is named because it involves testing the smallest possible "unit" in your code.  This usually means a function, procedure or method. This ensures that tests run quickly but also encourages us to organize our code in small, reusable pieces where each piece has a clear and specific purpose.
 
+If you've ever had to repeatedly run a script that processes an entire data file to see if a bugfix worked, or walked through a multiple-step flow in a web application, you know how long this can take.  Unit testing lets us quickly know if our code works.
+
+Consider `ApStyleNumbersTestCase.test_format_cardinal_number` in `tests/test_apstyle.py`:
+
+    class ApStyleNumbersTestCase(unittest.TestCase):
+        def test_format_cardinal_number(self):
+            self.assertEqual(format_cardinal_number(1), "one")
+            self.assertEqual(format_cardinal_number(10), "10")
+            self.assertEqual(format_cardinal_number(1050), "1,050")
+            self.assertEqual(format_cardinal_number(2000000), "2 million")
+
+What's the "unit"?
+
+You can see from the assertions that the test is calling `format_cardinal_number()` with different inputs and comparing the return value with expected results.  In this test, `format_cardinal_number()` is the "unit" under test.
+
+### unittest
+
+For this workshop, we're using Python's built in [unittest](https://docs.python.org/2/library/unittest.html) package.
+
+Unittest is a framework that makes it easier to write, organize and run tests.  It provides tools for:
+
+* test fixtures - the set up and tear down for tests.  This might involve creating a test database, reading test data from a file or instantiating an object used in multiple tests
+* test cases - tests code against specified inputs
+* test suites - a collection of test cases
+* test discovery and running
+
+Here are some basics for getting started with unittest:
+
+* Create a module in a file named `test_<some_identifier_for_what_youre_testing>.py`
+* Import `unittest`
+* Create a subclass of `unittest.TestCase` 
+* Implement tests as methods of your test case named `test_<some_identifier_for_the_unit_under_test>`
+
+Assertions methods of `unittest.TestCase` help us check our expectations:
+
+* assertEqual(a, b)
+* assertNotEqual(a, b)
+* assertTrue(x)
+* assertFalse(x)
+* assertIs(a, b)
+* assertIsNot(a, b)
+* assertIsNone(x)
+* assertIn(a, b)
+* assertNotIn(a, b)
+* assertIsInstance(a, b)
+* assertNotIsInstance(a, b)
+
+For a full list of assertion methods see the [unittest.TestCase docs](https://docs.python.org/2/library/unittest.html#unittest.TestCase).
+
+### Test driven development (TDD)
+
+It's a good practice to write our tests *before we write the code that does stuff*.  We watch the tests fail and then implement our code until the tests pass.  This helps us think through the interface, design and behavior of our function or procedure before we implement our code.  It also means that we'll always have a test that will let us make sure that future changes to the code don't accidently break something else.
+
+### Excercise: Let's write a test case
+
+We're going to write a function called `parse_name()` that takes a string as an input.  The string will be a comma separated list of name components in the format "last,first,middle,suffix".  For example:
+
+    Hing, Geoff, George
+
+The function should return a dictionary with keys for each component.  For example:
+
+    {
+        "first_name": "Geoff",
+        "last_name": "Hing",
+        "middle_name": "George",
+        "Suffix": None 
+    }
+
+Create a test case in `tests/test_names.py` with a test or tests for `parse_name()`.
+
+Then, implement `parse_names()` so it passes the test.
+
+## Writing testable code
+
+  To make our code easily testable, we should break pieces of functionality into separate functions, methods, classes an modules.  We should strive toward test-driven development, where we write tests first to define the "contract" between our code and its inputs and outputs.  However, in a newsroom environment, it can sometimes be difficult to rigorously follow disciplined software engineering practices.  Even when we don't write tests first, or write tests at all, it's a good practice to think about how you would test a piece of code.  If the answer to that question isn't clear, you might want to refactor the code.
+
+## Other kinds of testing
+
+* Integration tests
+
+## Next steps
+
+* Mocks
+* Continuous integration
 
 ## Outputting debugging messages
 
@@ -169,7 +261,6 @@ Update the result loader so it catches the `ValueError` and returns an empty lis
 
 ### repr() methods in your classes
 
-## Writing testable code
 
 ### Being explicit about assumptions with `assert`
 
