@@ -35,8 +35,8 @@ class ChicagoResultsLoader(object):
     Vote For                      3      152-154
 
     """
-    def load(self, path):
-        results = []
+
+    def parse_result(self, line):
         fields = [
             ('contest_code', 0, 4, unicode),
             ('candidate_number', 4, 3, unicode),
@@ -50,14 +50,24 @@ class ChicagoResultsLoader(object):
             ('political_subdivision_name', 126, 25, unicode),
             ('vote_for', 151, 3, int),
         ]
+
+        result = {}
+
+        line_len = len(line) 
+        for field_name, field_start, field_length, parser in fields:
+            if field_start >= line_len:
+                break
+
+            field_raw = line[field_start:field_start + field_length]
+            field_raw = field_raw.strip()
+            result[field_name] = parser(field_raw)
+
+        return result    
+
+    def load(self, path):
+        results = []
         with codecs.open(path, 'r', 'utf-8') as f:
             for line in f:
-                result = {}
-                for field_name, field_start, field_length, parser in fields:
-                    field_raw = line[field_start:field_start + field_length]
-                    field_raw = field_raw.strip()
-                    result[field_name] = parser(field_raw)
-
-                results.append(result)
+                results.append(self.parse_result(line))
 
         return results
