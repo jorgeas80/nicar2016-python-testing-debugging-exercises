@@ -13,7 +13,6 @@ Testing and Debugging News Applications in Python
 * Running tests 
 * Reading error messages 
 * Unit testing
-* Writing testable code
 * Outputting debugging messages
 * Debugging with pdb
 
@@ -292,11 +291,168 @@ You've likely instantiated a new loader in each of the test methods in `tests.te
 * Mocks
 * Continuous integration
 
-## Outputting debugging messages
+## Knowing what's going on
 
-### pprint
+While we strive to make our programs well behaved by writing tests, when we're handling a difficult problem, working with a poorly documented data format or API, or inheriting a code base from someone else (often without documentation or tests), we need to figure out what's going on in our program. 
 
-### logging.debug
+## pprint
+
+For many cases, `print()` works fine for displaying values in your code, but for complex data structures, the output can be difficult to read.  For example:
+
+    >>> import json
+    >>> with open('tests/data/ap_elections_loader_recording-1456935370.json') as f:
+    ...     data = json.load(f)
+    ...     print(data['races'][0])
+    ...
+    {u'raceTypeID': u'R', u'statePostal': u'FL', u'raceID': u'10673', u'national': True, u'officeName': u'President', u'lastUpdated': u'2016-03-02T15:42:49Z', u'candidates': [{u'candidateID': u'20408', u'last': u'Bush', u'polNum': u'14561', u'polID': u'1239', u'party': u'GOP', u'ballotOrder': 1, u'first': u'Jeb'}, {u'candidateID': u'20409', u'last': u'Carson', u'polNum': u'14562', u'polID': u'64509', u'party': u'GOP', u'ballotOrder': 2, u'first': u'Ben'}, {u'candidateID': u'20410', u'last': u'Christie', u'polNum': u'14563', u'polID': u'60051', u'party': u'GOP', u'ballotOrder': 3, u'first': u'Chris'}, {u'candidateID': u'20411', u'last': u'Cruz', u'polNum': u'14564', u'polID': u'61815', u'party': u'GOP', u'ballotOrder': 4, u'first': u'Ted'}, {u'candidateID': u'20414', u'last': u'Fiorina', u'polNum': u'14566', u'polID': u'60339', u'party': u'GOP', u'ballotOrder': 5, u'first': u'Carly'}, {u'candidateID': u'20416', u'last': u'Graham', u'polNum': u'14568', u'polID': u'1408', u'party': u'GOP', u'ballotOrder': 7, u'first': u'Lindsey'}, {u'abbrv': u'Huckabe', u'candidateID': u'20419', u'last': u'Huckabee', u'polNum': u'14569', u'polID': u'1187', u'party': u'GOP', u'ballotOrder': 8, u'first': u'Mike'}, {u'candidateID': u'20421', u'last': u'Kasich', u'polNum': u'14571', u'polID': u'36679', u'party': u'GOP', u'ballotOrder': 9, u'first': u'John'}, {u'candidateID': u'20423', u'last': u'Paul', u'polNum': u'14573', u'polID': u'60208', u'party': u'GOP', u'ballotOrder': 10, u'first': u'Rand'}, {u'candidateID': u'20425', u'last': u'Rubio', u'polNum': u'12082', u'polID': u'53044', u'party': u'GOP', u'ballotOrder': 11, u'first': u'Marco'}, {u'candidateID': u'20427', u'last': u'Santorum', u'polNum': u'13890', u'polID': u'1752', u'party': u'GOP', u'ballotOrder': 12, u'first': u'Rick'}, {u'candidateID': u'20428', u'last': u'Trump', u'polNum': u'14574', u'polID': u'8639', u'party': u'GOP', u'ballotOrder': 13, u'first': u'Donald'}, {u'candidateID': u'20429', u'last': u'Gilmore', u'polNum': u'14567', u'polID': u'45650', u'party': u'GOP', u'ballotOrder': 6, u'first': u'Jim'}], u'officeID': u'P', u'party': u'GOP'}
+
+`pprint.pprint()` pretty prints the data structure making it much easier for us to inspect. 
+
+    >>> import pprint
+    >>> import json
+    >>> with open('tests/data/ap_elections_loader_recording-1456935370.json') as f:
+    ...     data = json.load(f)
+    ...     pprint.pprint(data['races'][0])
+    ...
+    {u'candidates': [{u'ballotOrder': 1,
+                      u'candidateID': u'20408',
+                      u'first': u'Jeb',
+                      u'last': u'Bush',
+                      u'party': u'GOP',
+                      u'polID': u'1239',
+                      u'polNum': u'14561'},
+                     {u'ballotOrder': 2,
+                      u'candidateID': u'20409',
+                      u'first': u'Ben',
+                      u'last': u'Carson',
+                      u'party': u'GOP',
+                      u'polID': u'64509',
+                      u'polNum': u'14562'},
+                     {u'ballotOrder': 3,
+                      u'candidateID': u'20410',
+                      u'first': u'Chris',
+                      u'last': u'Christie',
+                      u'party': u'GOP',
+                      u'polID': u'60051',
+                      u'polNum': u'14563'},
+                     {u'ballotOrder': 4,
+                      u'candidateID': u'20411',
+                      u'first': u'Ted',
+                      u'last': u'Cruz',
+                      u'party': u'GOP',
+                      u'polID': u'61815',
+                      u'polNum': u'14564'},
+                     {u'ballotOrder': 5,
+                      u'candidateID': u'20414',
+                      u'first': u'Carly',
+                      u'last': u'Fiorina',
+                      u'party': u'GOP',
+                      u'polID': u'60339',
+                      u'polNum': u'14566'},
+                     {u'ballotOrder': 7,
+                      u'candidateID': u'20416',
+                      u'first': u'Lindsey',
+                      u'last': u'Graham',
+                      u'party': u'GOP',
+                      u'polID': u'1408',
+                      u'polNum': u'14568'},
+                     {u'abbrv': u'Huckabe',
+                      u'ballotOrder': 8,
+                      u'candidateID': u'20419',
+                      u'first': u'Mike',
+                      u'last': u'Huckabee',
+                      u'party': u'GOP',
+                      u'polID': u'1187',
+                      u'polNum': u'14569'},
+                     {u'ballotOrder': 9,
+                      u'candidateID': u'20421',
+                      u'first': u'John',
+                      u'last': u'Kasich',
+                      u'party': u'GOP',
+                      u'polID': u'36679',
+                      u'polNum': u'14571'},
+                     {u'ballotOrder': 10,
+                      u'candidateID': u'20423',
+                      u'first': u'Rand',
+                      u'last': u'Paul',
+                      u'party': u'GOP',
+                      u'polID': u'60208',
+                      u'polNum': u'14573'},
+                     {u'ballotOrder': 11,
+                      u'candidateID': u'20425',
+                      u'first': u'Marco',
+                      u'last': u'Rubio',
+                      u'party': u'GOP',
+                      u'polID': u'53044',
+                      u'polNum': u'12082'},
+                     {u'ballotOrder': 12,
+                      u'candidateID': u'20427',
+                      u'first': u'Rick',
+                      u'last': u'Santorum',
+                      u'party': u'GOP',
+                      u'polID': u'1752',
+                      u'polNum': u'13890'},
+                     {u'ballotOrder': 13,
+                      u'candidateID': u'20428',
+                      u'first': u'Donald',
+                      u'last': u'Trump',
+                      u'party': u'GOP',
+                      u'polID': u'8639',
+                      u'polNum': u'14574'},
+                     {u'ballotOrder': 6,
+                      u'candidateID': u'20429',
+                      u'first': u'Jim',
+                      u'last': u'Gilmore',
+                      u'party': u'GOP',
+                      u'polID': u'45650',
+                      u'polNum': u'14567'}],
+     u'lastUpdated': u'2016-03-02T15:42:49Z',
+     u'national': True,
+     u'officeID': u'P',
+     u'officeName': u'President',
+     u'party': u'GOP',
+     u'raceID': u'10673',
+     u'raceTypeID': u'R',
+     u'statePostal': u'FL'}
+
+## logging.debug
+
+While using `print()` and `pprint.pprint()` can help us understand what's going on in our code, they become less useful if our code is outputting information to the console, or if it's running on a remote hosts where we don't have a console.
+
+Luckily, the Python standard library includes the helpful, and relatively easy to use [`logging`](http://docs.python.org/library/logging) package which can give us more control over our debugging messages. 
+
+The logging framework provides and lets users define a number of components, including:
+
+* formatters - which control the format of the output log entries
+* handlers - direct log entries to various destinations.  This could be the console, a file, email, syslog or a cloud-based log collection service.
+
+While the full functionality of the `logging` package is beyond the scopeof this workshop, we can explore some of the package's most convenient features.
+
+To use `logging`, we first need to import it.
+
+    import logging
+
+As a convenience, the `logging` package provides a "root logger" with some default configurations.  You can log a debug message to the root logger, by calling `logging.debug`.
+
+    logging.debug("Logging to the root logger")
+
+However the debug messages won't show up by default.  This is because the root logger defaults to only showing messages with a level of `logging.WARN` (in case you were wondering, the hierarchy of levels goes "DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL").  We need to set the log level of the root logger:
+
+    logging.basicConfig(level=logging.DEBUG)
+
+## Excercise: add logging using the root logger
+
+Update `resuts.ChicagoResultsLoader.load()` to use the root logger to log the contest code, candidate number, votes and, if available, the contest name, candidate name and party.
+
+## Creating loggers
+
+Instead of using the root logger, we can instantiate a logger using `logging.getLogger()`. `logging.getLogger()` takes a `name` argument that specifies the component of your program where logging is happening.  This makes it easier to filter log messages.  It is conventional to use `__name__` to name the logger.
+
+    logger = logging.getLogger(__name__)
+
+We can then call `debug()` on our logger to log debugging messages.
+
+    logger.debug("Testing logging debug messages")
 
 ### repr() methods in your classes
 
