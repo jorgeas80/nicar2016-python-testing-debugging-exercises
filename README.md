@@ -242,7 +242,36 @@ Then, implement `parse_names()` so it passes the test.
 
 ## Writing testable code
 
-  To make our code easily testable, we should break pieces of functionality into separate functions, methods, classes an modules.  We should strive toward test-driven development, where we write tests first to define the "contract" between our code and its inputs and outputs.  However, in a newsroom environment, it can sometimes be difficult to rigorously follow disciplined software engineering practices.  Even when we don't write tests first, or write tests at all, it's a good practice to think about how you would test a piece of code.  If the answer to that question isn't clear, you might want to refactor the code.
+To make our code easily testable, we should break pieces of functionality into separate functions, methods, classes an modules.  This lets us test each operation separately and quickly.
+
+We should strive toward test-driven development, where we write tests first to define the "contract" between our code and its inputs and outputs.  However, in a newsroom environment, it can sometimes be difficult to rigorously follow disciplined software engineering practices.  Even when we don't write tests first, or write tests at all, it's a good practice to think about how you would test a piece of code.  If the answer to that question isn't clear, you might want to refactor the code.
+
+### Excercise: refactoring to for better testing
+
+`results.ChicagoResultsLoader` is a loader for the elections results feed of the [Chicago Board of Elections](http://www.chicagoelections.com/).  You can see the implementatin in `results/__init__.py`.  To run a very basic test of the results loader, run:
+
+    python -m unittest tests.test_chicago_result_loader
+
+You can see some results data in `tests/data/summary.txt`.
+
+Surprise! On elections night, the Chicago Board of Elections removes the full-text of the race and candidate names (as well as other information) and only publishes the first fields.
+
+So, instead of a row of data like:
+
+    0079002206900000000000DEM       State's Attorney, Cook County                           Anita Alvarez                         Cook County              001
+
+You get:
+
+    0079002206900000000000
+
+This will break our parsing logic.
+
+We'll need to update our loader to handle this new case.  Since we're doing test driven development, we'll want to write our test(s) before we update our implementation.  However, the current tests operate on an entire row of data.
+
+* Imagine how you would refactor the `load()` method to break out the parsing of a single line into its own method.  Let's call it `parse_result()`
+* Write a test for that new method, taking into account both data formats
+* Write the new method
+* Update `load()` to use the new method
 
 ## Other kinds of testing
 
