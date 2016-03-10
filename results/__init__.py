@@ -1,5 +1,8 @@
 import codecs
+import logging
 import json
+
+logging.basicConfig(level=logging.DEBUG)
 
 class SimpleResultLoader(object):
     def handle_result(self, result):
@@ -68,6 +71,26 @@ class ChicagoResultsLoader(object):
         results = []
         with codecs.open(path, 'r', 'utf-8') as f:
             for line in f:
-                results.append(self.parse_result(line))
+                result = self.parse_result(line)
+                results.append(result)
+                if 'candidate_name' in result:
+                    msg = (u"Parsed result for candidate {} ({}), {} party, in race {} ({}) "
+                           "with {} votes").format(
+                                result['candidate_name'],
+                                result['candidate_number'],
+                                result['party_abbreviation'],
+                                result['contest_name'],
+                                result['contest_code'],
+                                result['votes'])
+                            
+                else:
+                    msg = (u"Parsed result for candidate number {} in race with "
+                            "id {} with {} votes").format(
+                                result['candidate_number'],
+                                result['contest_code'],
+                                result['votes'])
+                            
+
+                logging.debug(msg)
 
         return results
