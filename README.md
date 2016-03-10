@@ -189,7 +189,7 @@ For this workshop, we're using Python's built in [unittest](https://docs.python.
 
 Unittest is a framework that makes it easier to write, organize and run tests.  It provides tools for:
 
-* test fixtures - the set up and tear down for tests.  This might involve creating a test database, reading test data from a file or instantiating an object used in multiple tests
+* test fixtures - set up an environment for testing.  This might involve creating a test database, reading test data from a file or instantiating an object used in multiple tests
 * test cases - tests code against specified inputs
 * test suites - a collection of test cases
 * test discovery and running
@@ -246,7 +246,7 @@ To make our code easily testable, we should break pieces of functionality into s
 
 We should strive toward test-driven development, where we write tests first to define the "contract" between our code and its inputs and outputs.  However, in a newsroom environment, it can sometimes be difficult to rigorously follow disciplined software engineering practices.  Even when we don't write tests first, or write tests at all, it's a good practice to think about how you would test a piece of code.  If the answer to that question isn't clear, you might want to refactor the code.
 
-### Excercise: refactoring to for better testing
+### Exercise: refactoring to for better testing
 
 `results.ChicagoResultsLoader` is a loader for the elections results feed of the [Chicago Board of Elections](http://www.chicagoelections.com/).  You can see the implementatin in `results/__init__.py`.  To run a very basic test of the results loader, run:
 
@@ -272,6 +272,16 @@ We'll need to update our loader to handle this new case.  Since we're doing test
 * Write a test for that new method, taking into account both data formats
 * Write the new method
 * Update `load()` to use the new method
+
+## Fixtures
+
+Fixtures define the test environment.  This could include setting up a test database, loading test data from a file, creating dummy records, or instantiating an object used in multiple tests.
+
+With the `unittest` framework, we create a fixture by implementing the `setUp()` method of our `TestCase` subclass.  If we need to do some cleanup after the tests have been run, implement the `tearDown()` method.
+
+## Excercise: Fixtures
+
+You've likely instantiated a new loader in each of the test methods in `tests.test_chicago_result_loader.TestChicagoResultLoader`.  Since our implementation of the loader doesn't store state, let's just instantiate one loader and reuse it in each of the test methods.
 
 ## Other kinds of testing
 
