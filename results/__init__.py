@@ -2,7 +2,18 @@ import codecs
 import logging
 import json
 
-logging.basicConfig(level=logging.DEBUG)
+# If you wanted to just use the root logger, do this:
+# logging.basicConfig(level=logging.DEBUG)
+
+# But, we're going to make our own logger
+logger = logging.getLogger(__name__)
+# And set its minimum level to DEBUG so we'll capture
+# the debug messages in our code
+logger.setLevel(logging.DEBUG)
+
+# And make a handler that sends log messages to a file 
+handler = logging.FileHandler('results_log.txt')
+logger.addHandler(handler)
 
 class SimpleResultLoader(object):
     def handle_result(self, result):
@@ -78,7 +89,7 @@ class ChicagoResultsLoader(object):
                            "with {} votes").format(
                                 result['candidate_name'],
                                 result['candidate_number'],
-                                result['party_abbreviation'],
+                                result['party_abbreviation'] or 'no',
                                 result['contest_name'],
                                 result['contest_code'],
                                 result['votes'])
@@ -90,7 +101,11 @@ class ChicagoResultsLoader(object):
                                 result['contest_code'],
                                 result['votes'])
                             
+                # If you just want to debug messages to the root logger, do
+                # this:
+                # logging.debug(msg)
 
-                logging.debug(msg)
+                # But we'll use our own logger
+                logger.debug(msg)
 
         return results
