@@ -454,6 +454,22 @@ We can then call `debug()` on our logger to log debugging messages.
 
     logger.debug("Testing logging debug messages")
 
+You can set the base log level for the logger using the `setLevel()` method.
+
+    logger.setLevel(logging.DEBUG)
+
+You can also instantiate a new log handler.  For example, a [`FileHandler`](https://docs.python.org/2/library/logging.handlers.html#filehandler) will output log messages to a file.
+
+    handler = logging.FileHandler('debug_log.txt')
+
+And then add it to the logger:
+
+    logger.addHandler(handler)
+
+## Excercise: logging to a file
+
+Update the `results` module to use a logger you instantiate instead of the root logger.  Configure the logger so that it will log debug messages to a file named `results_log.txt`.
+
 ### repr() methods in your classes
 
 
