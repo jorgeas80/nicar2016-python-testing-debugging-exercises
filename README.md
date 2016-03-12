@@ -161,6 +161,8 @@ The first line is the code where execution started:
 
 The execution that eventually caused the error starts in our test case.
 
+## Excercise: use traceback to find where to fix our code
+
 Update the result loader so it catches the `ValueError` and returns an empty list.  From the traceback, can you see where we should look to fix our code?
 
 ## Unit testing
@@ -245,7 +247,7 @@ To make our code easily testable, we should break pieces of functionality into s
 
 We should strive toward test-driven development, where we write tests first to define the "contract" between our code and its inputs and outputs.  However, in a newsroom environment, it can sometimes be difficult to rigorously follow disciplined software engineering practices.  Even when we don't write tests first, or write tests at all, it's a good practice to think about how you would test a piece of code.  If the answer to that question isn't clear, you might want to refactor the code.
 
-### Exercise: refactoring to for better testing
+### Exercise: refactoring for better testing
 
 `results.ChicagoResultsLoader` is a loader for the elections results feed of the [Chicago Board of Elections](http://www.chicagoelections.com/).  You can see the implementatin in `results/__init__.py`.  To run a very basic test of the results loader, run:
 
@@ -426,6 +428,7 @@ Luckily, the Python standard library includes the helpful, and relatively easy t
 
 The logging framework provides and lets users define a number of components, including:
 
+* loggers - provide interface for logging in a module
 * formatters - which control the format of the output log entries
 * handlers - direct log entries to various destinations.  This could be the console, a file, email, syslog or a cloud-based log collection service.
 
@@ -528,7 +531,7 @@ Use `pdb.set_trace()`:
 
 ## Entering a debugging session on the last exception
 
-Use `pdb.postmortem()` with `sys.exc_info()`:
+Use `pdb.post_mortem()` with `sys.exc_info()`:
 
     >>> import pdb
     >>> import sys
@@ -586,7 +589,7 @@ To get help on commands in the debugger, you can use the `help` command.  Or run
 
 `quit` exits the debugging session
 
-## (l)ist: show where you are in your code
+## (l)ist
 
 `list` shows where you are in your code in the current debugging session:
 
