@@ -290,6 +290,9 @@ You've likely instantiated a new loader in each of the test methods in `tests.te
 
 * Mocks
 * Continuous integration
+* Other test runners:
+    * nose
+    * unittest2 (you just get this if you're using Python 3)
 
 ## Knowing what's going on
 
@@ -470,26 +473,377 @@ And then add it to the logger:
 
 Update the `results` module to use a logger you instantiate instead of the root logger.  Configure the logger so that it will log debug messages to a file named `results_log.txt`.
 
-### repr() methods in your classes
+## Being explicit about assumptions with `assert`
+
+## Interactive debugging
+
+We've all probably used the techniques we've just discussed to debug our programs. However, this technique can break down quickly.
+
+Jeremy Jones, in the article [Interactive Debugging in Python](http://www.onlamp.com/pub/a/python/2005/09/01/debugger.html) explains it better than I can:
+
+> Regarding convenience, sometimes it is much more convenient to drop in to a debugger to see what is going on right in front of your eyes and poke at your code while at a Python prompt rather than having to modify the code and rerun it. What if you are trying to debug a database application in which the bug occurs after retrieving a set of data that took tens of seconds to retrieve? Worse still, what if you have a bug in a computationally intense application that occurs after processing several hours' worth of data? You might possibly nearly break even on the first run of a program using either the interactive debugger versus the print technique of debugging. But chances are you will not have gathered enough data on the first run to solve the problem successfully. The payback comes when it would have taken several runs and multiple print inserts into the source code to solve the problem. With the debugger, you can do an exhaustive amount of information gathering and analysis and, hopefully, solve the problem all at once.
+>
+> Regarding control, which overlaps with convenience, debugging an application at a prompt, as opposed to modifying source code and rerunning it, provides an immediate level of control. Sometimes it is easier to figure out what is going on with a set of code if you have live objects at your fingertips and can interact with them through a prompt ...
+
+## Debugging with pdb
+
+Python's standard library includes [`pdb`](https://docs.python.org/2/library/pdb.html), the Python Debugger, which provides a number of ways to enter an interactive debugging session.  
+
+## Enter a debugging session at a specific line in your code
+
+Use `pdb.set_trace()`:
+
+    >>> import pdb
+    >>> def debug_this(i1, i2):
+    ...     result = i1
+    ...     for i in range(5):
+    ...         pdb.set_trace()
+    ...         result += i2
+    ...     return result
+    ...
+    >>> debug_this()
+    >>> debug_this(1, 1)
+    > <stdin>(5)debug_this()
+    (Pdb) 
+
+## Entering a debugging session on the last exception
+
+Use `pdb.postmortem()` with `sys.exc_info()`:
+
+    >>> import pdb
+    >>> import sys
+    >>> def debug_this(i1, i2):
+    ...     try:
+    ...         result = i1
+    ...         return i1[i2]
+    ...     except Exception:
+    ...        exc_type, exc_value, exc_traceback = sys.exc_info()
+    ...        pdb.post_mortem(exc_traceback)
+    ...
+    >>> debug_this(1, 1)
+    > <stdin>(4)debug_this()
+
+You could also use `pdb.pm()` to do the same thing.  But `sys.last_traceback` doesn't always get set, which makes `pdb.pm()` not work.
+
+    >>> import pdb
+    >>> def debug_this(i1, i2):
+    ...     try:
+    ...        result = i1
+    ...        # Wat?!?
+    ...        return i1[i2]
+    ...     except Exception:
+    ...        pdb.pm()
+    ...
+    >>> debug_this(1, 1)
+    > /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/bdb.py(68)dispatch_line()
+    -> if self.quitting: raise BdbQuit
+    (Pdb)
+
+## Call a function and enter the debugger
+
+Use `pdb.runcall()`:
+
+    >>> import pdb
+    >>> def debug_this(i1, i2):
+    ...     result = i1
+    ...     for i in range(5):
+    ...         result += i2
+    ...     return result
+    ...
+    >>> pdb.runcall(debug_this, 1, 1)
+    > <stdin>(2)debug_this()
+    (Pdb)
+
+## Debugger commands
+
+Once you're in the debugger, there are a number of commands that you can run to step through your program, or inspect the environment.
+
+Most commands have a single character shortut.  For example the `list` command can also be run with `l`.
+
+To get help on commands in the debugger, you can use the `help` command.  Or run `help <topic>` (e.g. `help list`) to get help on a specific command.
+
+## (q)uit:
+
+`quit` exits the debugging session
+
+## (l)ist: show where you are in your code
+
+`list` shows where you are in your code in the current debugging session:
+
+    python -m unittest tests.test_using_debugger
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(18)test_silly_thing()
+    -> sillier_things = silly_things(things)
+    (Pdb) l
+     13                     "duck",
+     14                     27,
+     15                     "",
+     16             ]
+     17             pdb.set_trace()
+     18  ->         sillier_things = silly_things(things)
+     19             self.assertEqual(sillier_things[2], "silly duck")
+
+## (w)here
+
+`where` shows the call stack to the current position:
+
+    python -m unittest tests.test_using_debugger
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(18)test_silly_thing()
+    -> sillier_things = silly_things(things)
+    (Pdb) w
+      /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/runpy.py(162)_run_module_as_main()
+    -> "__main__", fname, loader, pkg_name)
+      /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/runpy.py(72)_run_code()
+    -> exec code in run_globals
+      /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/__main__.py(12)<module>()
+    -> main(module=None)
+      /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/main.py(95)__init__()
+    -> self.runTests()
+      /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/main.py(232)runTests()
+    -> self.result = testRunner.run(self.test)
+      /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/runner.py(151)run()
+    -> test(result)
+      /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/suite.py(70)__call__()
+    -> return self.run(*args, **kwds)
+      /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/suite.py(108)run()
+    -> test(result)
+      /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/suite.py(70)__call__()
+    -> return self.run(*args, **kwds)
+      /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/suite.py(108)run()
+    -> test(result)
+      /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/suite.py(70)__call__()
+    -> return self.run(*args, **kwds)
+      /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/suite.py(108)run()
+    -> test(result)
+      /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py(393)__call__()
+    -> return self.run(*args, **kwds)
+      /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py(329)run()
+    -> testMethod()
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(18)test_silly_thing()
+    -> sillier_things = silly_things(things)
+
+## (s)tep
+
+To execute the current line and then stop at the first possible occasion, use `step`:
+
+    python -m unittest tests.test_using_debugger
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(23)test_silly_thing()
+    -> sillier_things = silly_things(things)
+    (Pdb) l
+     18                     "duck",
+     19                     27,
+     20                     "",
+     21             ]
+     22             pdb.set_trace()
+     23  ->         sillier_things = silly_things(things)
+     24             self.assertEqual(sillier_things[2], "silly duck")
+    [EOF]
+    (Pdb) s
+    --Call--
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(4)silly_things()
+    -> def silly_things(things):
+    (Pdb) l
+      1     import pdb
+      2     import unittest
+      3
+      4  -> def silly_things(things):
+      5         sillier_things = []
+      6
+      7         for thing in things:
+      8             sillier_things.append("silly " + thing)
+      9
+     10         return sillier_things
 
 
-### Being explicit about assumptions with `assert`
+## (b)reak
 
-### Debugging with pdb
+To set a breakpoint at a certain line in the current file, use `break`:
 
+    python -m unittest tests.test_using_debugger
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(23)test_silly_thing()
+    -> sillier_things = silly_things(things)
+    (Pdb) l
+     18                     "duck",
+     19                     27,
+     20                     "",
+     21             ]
+     22             pdb.set_trace()
+     23  ->         sillier_things = silly_things(things)
+     24             self.assertEqual(sillier_things[2], "silly duck")
+    [EOF]
+    (Pdb) s
+    --Call--
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(4)silly_things()
+    -> def silly_things(things):
+    (Pdb) l
+      1     import pdb
+      2     import unittest
+      3
+      4  -> def silly_things(things):
+      5         sillier_things = []
+      6
+      7         for thing in things:
+      8             sillier_things.append("silly " + thing)
+      9
+     10         return sillier_things
+     11
+    (Pdb) b 8
+    Breakpoint 1 at /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py:8
 
-    def get_race_name(cls, race):
-        race_name = super(IllinoisAPAPIResultLoader, cls).get_race_name(race)
-        race_name = race_name.replace("State House", "Illinois House")
-        race_name = race_name.replace("State Senate", "Illinois Senate")
-        if race.seatname and "County" in race.seatname and race_name.endswith(race.seatname):
-            # Put the county name at the beginning of the race instead of the end
-            # and remove county from the office name
-            race_name = (race.seatname + " " +
-                         race_name.replace(race.seatname, "")
-                                  .replace("County", "").strip())
+## (c)ontinue
+
+To run the program until the next breakpoint, use `continue`:
+
+    python -m unittest tests.test_using_debugger
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(23)test_silly_thing()
+    -> sillier_things = silly_things(things)
+    (Pdb) l
+     18                     "duck",
+     19                     27,
+     20                     "",
+     21             ]
+     22             pdb.set_trace()
+     23  ->         sillier_things = silly_things(things)
+     24             self.assertEqual(sillier_things[2], "silly duck")
+    [EOF]
+    (Pdb) s
+    --Call--
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(4)silly_things()
+    -> def silly_things(things):
+    (Pdb) l
+      1     import pdb
+      2     import unittest
+      3
+      4  -> def silly_things(things):
+      5         sillier_things = []
+      6
+      7         for thing in things:
+      8             sillier_things.append("silly " + thing)
+      9
+     10         return sillier_things
+     11
+    (Pdb) b 8
+    Breakpoint 1 at /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py:8
+    (Pdb) c
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(8)silly_things()
+    -> sillier_things.append("silly " + thing)
+    (Pdb) c
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(8)silly_things()
+    -> sillier_things.append("silly " + thing)
+
+## Inspecting values
+
+You can use Python in the debugger to inspect variables in the current frame:
+
+    python -m unittest tests.test_using_debugger
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(23)test_silly_thing()
+    -> sillier_things = silly_things(things)
+    (Pdb) l
+     18                     "duck",
+     19                     27,
+     20                     "",
+     21             ]
+     22             pdb.set_trace()
+     23  ->         sillier_things = silly_things(things)
+     24             self.assertEqual(sillier_things[2], "silly duck")
+    [EOF]
+    (Pdb) s
+    --Call--
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(4)silly_things()
+    -> def silly_things(things):
+    (Pdb) l
+      1     import pdb
+      2     import unittest
+      3
+      4  -> def silly_things(things):
+      5         sillier_things = []
+      6
+      7         for thing in things:
+      8             sillier_things.append("silly " + thing)
+      9
+     10         return sillier_things
+     11
+    (Pdb) b 8
+    Breakpoint 1 at /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py:8
+    (Pdb) c
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(8)silly_things()
+    -> sillier_things.append("silly " + thing)
+    (Pdb) c
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(8)silly_things()
+    -> sillier_things.append("silly " + thing)
+    (Pdb) print(thing)
+    kitten
+
+## (u)p/(d)own
+
+You can use `up` or `down` to navigate between levels of the current call stack:
+
+    python -m unittest tests.test_using_debugger
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(23)test_silly_thing()
+    -> sillier_things = silly_things(things)
+    (Pdb) s
+    --Call--
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(4)silly_things()
+    -> def silly_things(things):
+    (Pdb) l
+      1     import pdb
+      2     import unittest
+      3
+      4  -> def silly_things(things):
+      5         sillier_things = []
+      6
+      7         for thing in things:
+      8             sillier_things.append("silly " + thing)
+      9
+     10         return sillier_things
+     11
+    (Pdb) u
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(23)test_silly_thing()
+    -> sillier_things = silly_things(things)
+    (Pdb) import pprint
+    (Pdb) pprint.pprint(things)
+    ['rabbit', 'kitten', 'duck', 27, '']
+    (Pdb) d
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(4)silly_things()
+    -> def silly_things(things):
+    (Pdb) l
+      1     import pdb
+      2     import unittest
+      3
+      4  -> def silly_things(things):
+      5         sillier_things = []
+      6
+      7         for thing in things:
+      8             sillier_things.append("silly " + thing)
+      9
+     10         return sillier_things
+     11
+    (Pdb) s
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(5)silly_things()
+    -> sillier_things = []
+    (Pdb) s
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(7)silly_things()
+    -> for thing in things:
+    (Pdb) s
+    > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/tests/test_using_debugger.py(8)silly_things()
+    -> sillier_things.append("silly " + thing)
+    (Pdb) print(thing)
+    rabbit
+
+## Excercise: use the debugger to find wonky data
+
+Run `python -m unittest tests.test_chicago_result_loader.TestBrokenChicagoResultLoader`.  What exception is raised?
+
+Update `results.broken.BrokenChicagoResultsLoader` (in `results/broken.py`) to start the debugger and then use the debugger to figure out what line in our data is giving us problems. 
+
+## More powerful debuggers
+
+Check out [ipdb](https://pypi.python.org/pypi/ipdb), iPython's debugger.  It offers tab completion, object introspection and syntax highlighting (which you probably already use if you use iPython).  
+
+[pudb](https://pypi.python.org/pypi/pudb) offers multi-pane debugging which, though still terminal-based, offers similar information to what you'd see in the JavaScript debugger in Chrome or Firefox's developer tools.
 
 ## Glossary
+
+TODO: Write this
 
 Unit test
 
@@ -498,3 +852,7 @@ Test case
 Test suite
 
 Exception: An unexpected error detected during program execution.  The [Errors and Exceptions](https://docs.python.org/2/tutorial/errors.html) section of the [Python Tutorial](https://docs.python.org/2/tutorial/) is a useful reference on exceptions.
+
+Stack
+
+Frame

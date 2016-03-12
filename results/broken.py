@@ -1,18 +1,4 @@
-import codecs
-import json
-
-from .broken import BrokenChicagoResultsLoader
-
-class SimpleResultLoader(object):
-    def handle_result(self, result):
-        return result
-
-    def load(self, s):
-        parsed = json.loads(s)
-        return [self.handle_result(r) for r in parsed['results']]
-
-
-class ChicagoResultsLoader(object):
+class BrokenChicagoResultsLoader(object):
     """
     Parse Chicago Board of Elections Results File.
 
@@ -48,7 +34,7 @@ class ChicagoResultsLoader(object):
             ('political_subdivision_name', 126, 25, unicode),
             ('vote_for', 151, 3, int),
         ]
-        with codecs.open(path, 'r', 'utf-8') as f:
+        with open(path, 'r') as f:
             for line in f:
                 result = {}
                 for field_name, field_start, field_length, parser in fields:
