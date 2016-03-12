@@ -2,6 +2,8 @@ import codecs
 import logging
 import json
 
+from .broken import BrokenChicagoResultsLoader
+
 # If you wanted to just use the root logger, do this:
 # logging.basicConfig(level=logging.DEBUG)
 
