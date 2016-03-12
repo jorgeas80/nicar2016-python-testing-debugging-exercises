@@ -475,6 +475,26 @@ Update the `results` module to use a logger you instantiate instead of the root 
 
 ## Being explicit about assumptions with `assert`
 
+We can use the `assert` statement to check the assumptions our program is making.
+
+For example:
+
+    >>> from types import *
+    >>> s = "foo"
+    >>> assert type(s) is StringType, "Oops, s is not a string"
+    >>> s = 27
+    >>> assert type(s) is StringType, "Oops, s is not a string"
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    AssertionError: Oops, s is not a string
+
+Consider this code:
+
+    def switchemup(items):
+        return [items[1].upper(), items[0].upper()]
+
+What assumptions are we making about `items`?  How could we use `assert` to check these assumptions?
+
 ## Interactive debugging
 
 We've all probably used the techniques we've just discussed to debug our programs. However, this technique can break down quickly.
