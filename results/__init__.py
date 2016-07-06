@@ -1,4 +1,3 @@
-import codecs
 import logging
 import json
 
@@ -82,7 +81,7 @@ class ChicagoResultsLoader(object):
 
     def load(self, path):
         results = []
-        with codecs.open(path, 'r', 'utf-8') as f:
+        with open(path) as f:
             for line in f:
                 result = self.parse_result(line)
                 results.append(result)
