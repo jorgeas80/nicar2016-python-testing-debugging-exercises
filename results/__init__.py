@@ -36,16 +36,16 @@ class ChicagoResultsLoader(object):
     def load(self, path):
         results = []
         fields = [
-            ('contest_code', 0, 4, unicode),
-            ('candidate_number', 4, 3, unicode),
+            ('contest_code', 0, 4, str),
+            ('candidate_number', 4, 3, str),
             ('num_eligible_precincts', 7, 4, int),
             ('votes', 11, 7, int),
             ('num_completed_precincts', 18, 4, int),
-            ('party_abbreviation', 22, 3, unicode),
-            ('political_subdivision_abbreviation', 25, 7, unicode),
-            ('contest_name', 32, 56, unicode),
-            ('candidate_name', 88, 38, unicode),
-            ('political_subdivision_name', 126, 25, unicode),
+            ('party_abbreviation', 22, 3, str),
+            ('political_subdivision_abbreviation', 25, 7, str),
+            ('contest_name', 32, 56, str),
+            ('candidate_name', 88, 38, str),
+            ('political_subdivision_name', 126, 25, str),
             ('vote_for', 151, 3, int),
         ]
         with codecs.open(path, 'r', 'utf-8') as f:
