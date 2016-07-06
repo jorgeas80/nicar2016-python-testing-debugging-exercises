@@ -1,4 +1,3 @@
-import codecs
 import json
 
 from .broken import BrokenChicagoResultsLoader
@@ -48,7 +47,7 @@ class ChicagoResultsLoader(object):
             ('political_subdivision_name', 126, 25, str),
             ('vote_for', 151, 3, int),
         ]
-        with codecs.open(path, 'r', 'utf-8') as f:
+        with open(path) as f:
             for line in f:
                 result = {}
                 for field_name, field_start, field_length, parser in fields:
