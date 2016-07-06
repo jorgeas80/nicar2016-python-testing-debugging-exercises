@@ -24,7 +24,7 @@ class SimpleResultLoader(object):
     def load(self, s):
         try:
             parsed = json.loads(s)
-        except ValueError:
+        except json.decoder.JSONDecodeError:
             return []
 
         return [self.handle_result(r) for r in parsed['results']]
