@@ -22,16 +22,16 @@ class BrokenChicagoResultsLoader(object):
     def load(self, path):
         results = []
         fields = [
-            ('contest_code', 0, 4, unicode),
-            ('candidate_number', 4, 3, unicode),
+            ('contest_code', 0, 4, str),
+            ('candidate_number', 4, 3, str),
             ('num_eligible_precincts', 7, 4, int),
             ('votes', 11, 7, int),
             ('num_completed_precincts', 18, 4, int),
-            ('party_abbreviation', 22, 3, unicode),
-            ('political_subdivision_abbreviation', 25, 7, unicode),
-            ('contest_name', 32, 56, unicode),
-            ('candidate_name', 88, 38, unicode),
-            ('political_subdivision_name', 126, 25, unicode),
+            ('party_abbreviation', 22, 3, str),
+            ('political_subdivision_abbreviation', 25, 7, str),
+            ('contest_name', 32, 56, str),
+            ('candidate_name', 88, 38, str),
+            ('political_subdivision_name', 126, 25, str),
             ('vote_for', 151, 3, int),
         ]
         with open(path, 'r') as f:
@@ -71,7 +71,7 @@ class BrokenChicagoResultsLoader(object):
                         # Álvaro R. Obregón (Sanders)
                         # (Pdb) print(line)
                         # 0023012034800000000000DEM       Delegate, National Convention 4th DEM                   Álvaro R. Obregón (Sanders)           4th Congressional Distric005
-                        # 
+                        #
                         # It looks like the issue is that there are non-ASCII
                         # characters in the data that we'll have to handle
                         # somehow

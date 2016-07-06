@@ -1,0 +1,907 @@
+Parsed result for candidate PRECINCTS COUNTED - TOTAL (000), no party, in race PRECINCTS COUNTED - TOTAL (0000) with 0 votes
+Parsed result for candidate VOTERS (001), no party, in race REGISTERED VOTERS - TOTAL (0001) with 1514912 votes
+Parsed result for candidate BALLOTS CAST (001), no party, in race BALLOTS CAST - TOTAL (0002) with 0 votes
+Parsed result for candidate BALLOTS CAST (002), NON party, in race BALLOTS CAST - Nonpartisan (0002) with 0 votes
+Parsed result for candidate BALLOTS CAST (003), DEM party, in race BALLOTS CAST - Democratic (0002) with 0 votes
+Parsed result for candidate BALLOTS CAST (004), REP party, in race BALLOTS CAST - Republican (0002) with 0 votes
+Parsed result for candidate BALLOTS CAST (005), GRN party, in race BALLOTS CAST - Green (0002) with 0 votes
+Parsed result for candidate Hillary Clinton (001), DEM party, in race President, U.S. (0010) with 0 votes
+Parsed result for candidate Willie L. Wilson (002), DEM party, in race President, U.S. (0010) with 0 votes
+Parsed result for candidate Martin J. O'Malley (003), DEM party, in race President, U.S. (0010) with 0 votes
+Parsed result for candidate Roque ''Rocky'' De La Fuente (004), DEM party, in race President, U.S. (0010) with 0 votes
+Parsed result for candidate Larry (Lawrence) Cohen (005), DEM party, in race President, U.S. (0010) with 0 votes
+Parsed result for candidate Bernie Sanders (006), DEM party, in race President, U.S. (0010) with 0 votes
+Parsed result for candidate Andrea Zopp (001), DEM party, in race Senator, U.S. (0011) with 0 votes
+Parsed result for candidate Tammy Duckworth (002), DEM party, in race Senator, U.S. (0011) with 0 votes
+Parsed result for candidate Napoleon Harris (003), DEM party, in race Senator, U.S. (0011) with 0 votes
+Parsed result for candidate Susana Mendoza (001), DEM party, in race Comptroller, State of Illinois (0012) with 0 votes
+Parsed result for candidate Bobby L. Rush (001), DEM party, in race U.S. Representative, 1st District (0013) with 0 votes
+Parsed result for candidate O. Patrick Brutus (002), DEM party, in race U.S. Representative, 1st District (0013) with 0 votes
+Parsed result for candidate Howard B. Brookins, Jr. (003), DEM party, in race U.S. Representative, 1st District (0013) with 0 votes
+Parsed result for candidate Marcus Lewis (001), DEM party, in race U.S. Representative, 2nd District (0014) with 0 votes
+Parsed result for candidate Robin Kelly (002), DEM party, in race U.S. Representative, 2nd District (0014) with 0 votes
+Parsed result for candidate Dorian C.L. Myrickes (003), DEM party, in race U.S. Representative, 2nd District (0014) with 0 votes
+Parsed result for candidate Charles Rayburn (004), DEM party, in race U.S. Representative, 2nd District (0014) with 0 votes
+Parsed result for candidate Daniel William Lipinski (001), DEM party, in race U.S. Representative, 3rd District (0015) with 0 votes
+Parsed result for candidate Luis V. Gutierrez (001), DEM party, in race U.S. Representative, 4th District (0016) with 0 votes
+Parsed result for candidate Javier Salas (002), DEM party, in race U.S. Representative, 4th District (0016) with 0 votes
+Parsed result for candidate Mike Quigley (001), DEM party, in race U.S. Representative, 5th District (0017) with 0 votes
+Parsed result for candidate Danny K. Davis (001), DEM party, in race U.S. Representative, 7th District (0018) with 0 votes
+Parsed result for candidate Thomas Day (002), DEM party, in race U.S. Representative, 7th District (0018) with 0 votes
+Parsed result for candidate Janice D. Schakowsky (001), DEM party, in race U.S. Representative, 9th District (0019) with 0 votes
+Parsed result for candidate Jacqueline Collins (Clinton) (001), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate David Moore (Clinton) (002), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Barbara Flynn Currie (Clinton) (003), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Kwame Raoul (Clinton) (004), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Mary E. Flowers (Clinton) (005), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Roderick T. Sawyer (Clinton) (006), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Toni Preckwinkle (Clinton) (007), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Kurt Summers (Clinton) (008), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Carolyn Rush (Clinton) (009), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Rochelle Y. O'Neal (O'Malley) (010), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Hedy Gist-Ellison (O'Malley) (011), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Joseph Wheeler (O'Malley) (012), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Tyler Kissinger (Sanders) (013), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Adriana Sanchez (Sanders) (014), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate William K. Crosby (Sanders) (015), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Brendan Houlihan (Sanders) (016), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Tim Gaffney (Sanders) (017), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Patricia Guinn (Sanders) (018), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Vernita Farmer (Sanders) (019), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Brenda J. Malone (Sanders) (020), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Theresa McCulley (Sanders) (021), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Kenzo Emiliano Esquivel (Sanders) (022), DEM party, in race Delegate, National Convention 1st DEM (0020) with 0 votes
+Parsed result for candidate Timothy ''Tim'' Bradford (Clinton) (001), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate Lisa Dugan (Clinton) (002), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate Jaylin Davon McClinton (Clinton) (003), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate Leslie Hairston (Clinton) (004), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate Al Riley (Clinton) (005), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate Toi W. Hutchinson (Clinton) (006), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate Frank M. Zuccarelli (Clinton) (007), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate Donna Miller (Clinton) (008), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate Michael Holmes (O'Malley) (009), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate James Patton (O'Malley) (010), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate Gregory Washington (O'Malley) (011), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate Kenneth Franklin (Sanders) (012), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate Linda Jennings (Sanders) (013), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate Tanya Watkins (Sanders) (014), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate John A. Willard (Sanders) (015), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate Ndidi A. Okakpu (Sanders) (016), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate Carl Camacho (Sanders) (017), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate Laura M. Ortega (Sanders) (018), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate Susan Sadlowski Garza (Sanders) (019), DEM party, in race Delegate, National Convention 2nd DEM (0021) with 0 votes
+Parsed result for candidate Colleen Patricia Burns (Clinton) (001), DEM party, in race Delegate, National Convention 3rd DEM (0022) with 0 votes
+Parsed result for candidate Michael E. Hastings (Clinton) (002), DEM party, in race Delegate, National Convention 3rd DEM (0022) with 0 votes
+Parsed result for candidate Clarisol Duque (Clinton) (003), DEM party, in race Delegate, National Convention 3rd DEM (0022) with 0 votes
+Parsed result for candidate Jorge Ramirez (Clinton) (004), DEM party, in race Delegate, National Convention 3rd DEM (0022) with 0 votes
+Parsed result for candidate Shirley Madigan (Clinton) (005), DEM party, in race Delegate, National Convention 3rd DEM (0022) with 0 votes
+Parsed result for candidate Josephine Singler (O'Malley) (006), DEM party, in race Delegate, National Convention 3rd DEM (0022) with 0 votes
+Parsed result for candidate Nancy Heskin Jados (O'Malley) (007), DEM party, in race Delegate, National Convention 3rd DEM (0022) with 0 votes
+Parsed result for candidate Edward D. Maloney (O'Malley) (008), DEM party, in race Delegate, National Convention 3rd DEM (0022) with 0 votes
+Parsed result for candidate David B. Maher (O'Malley) (009), DEM party, in race Delegate, National Convention 3rd DEM (0022) with 0 votes
+Parsed result for candidate Matthew Lafond (O'Malley) (010), DEM party, in race Delegate, National Convention 3rd DEM (0022) with 0 votes
+Parsed result for candidate Nathaniel Harris (Sanders) (011), DEM party, in race Delegate, National Convention 3rd DEM (0022) with 0 votes
+Parsed result for candidate Rebecca Davies (Sanders) (012), DEM party, in race Delegate, National Convention 3rd DEM (0022) with 0 votes
+Parsed result for candidate Daniel Buys (Sanders) (013), DEM party, in race Delegate, National Convention 3rd DEM (0022) with 0 votes
+Parsed result for candidate Myriam Calvache (Sanders) (014), DEM party, in race Delegate, National Convention 3rd DEM (0022) with 0 votes
+Parsed result for candidate Maureen Sullivan (Sanders) (015), DEM party, in race Delegate, National Convention 3rd DEM (0022) with 0 votes
+Parsed result for candidate Soraida Gutierrez (Clinton) (001), DEM party, in race Delegate, National Convention 4th DEM (0023) with 0 votes
+Parsed result for candidate Raymond A. Lopez (Clinton) (002), DEM party, in race Delegate, National Convention 4th DEM (0023) with 0 votes
+Parsed result for candidate Milly Santiago (Clinton) (003), DEM party, in race Delegate, National Convention 4th DEM (0023) with 0 votes
+Parsed result for candidate Vicente ''Vince'' Sanchez, Jr. (Clinto (004), DEM party, in race Delegate, National Convention 4th DEM (0023) with 0 votes
+Parsed result for candidate Emanuel ''Chris'' Welch (Clinton) (005), DEM party, in race Delegate, National Convention 4th DEM (0023) with 0 votes
+Parsed result for candidate Barbara P. Guttmann (O'Malley) (006), DEM party, in race Delegate, National Convention 4th DEM (0023) with 0 votes
+Parsed result for candidate Richard Gutierrez (O'Malley) (007), DEM party, in race Delegate, National Convention 4th DEM (0023) with 0 votes
+Parsed result for candidate Will Guzzardi (Sanders) (008), DEM party, in race Delegate, National Convention 4th DEM (0023) with 0 votes
+Parsed result for candidate Andrea Perkins (Sanders) (009), DEM party, in race Delegate, National Convention 4th DEM (0023) with 0 votes
+Parsed result for candidate Carlos Ramirez-Rosa (Sanders) (010), DEM party, in race Delegate, National Convention 4th DEM (0023) with 0 votes
+Parsed result for candidate Shana East (Sanders) (011), DEM party, in race Delegate, National Convention 4th DEM (0023) with 0 votes
+Parsed result for candidate Álvaro R. Obregón (Sanders) (012), DEM party, in race Delegate, National Convention 4th DEM (0023) with 0 votes
+Parsed result for candidate Melissa Rubio (Sanders) (013), DEM party, in race Delegate, National Convention 4th DEM (0023) with 0 votes
+Parsed result for candidate Sara Feigenholtz (Clinton) (001), DEM party, in race Delegate, National Convention 5th DEM (0024) with 0 votes
+Parsed result for candidate Rocco J. Claps (Clinton) (002), DEM party, in race Delegate, National Convention 5th DEM (0024) with 0 votes
+Parsed result for candidate Bridget Gainer (Clinton) (003), DEM party, in race Delegate, National Convention 5th DEM (0024) with 0 votes
+Parsed result for candidate Patrick Croke (Clinton) (004), DEM party, in race Delegate, National Convention 5th DEM (0024) with 0 votes
+Parsed result for candidate Jan Kallish (Clinton) (005), DEM party, in race Delegate, National Convention 5th DEM (0024) with 0 votes
+Parsed result for candidate Proco Joseph Moreno (Clinton) (006), DEM party, in race Delegate, National Convention 5th DEM (0024) with 0 votes
+Parsed result for candidate Angelique Hardy Heinz (O'Malley) (007), DEM party, in race Delegate, National Convention 5th DEM (0024) with 0 votes
+Parsed result for candidate Joseph Enright (O'Malley) (008), DEM party, in race Delegate, National Convention 5th DEM (0024) with 0 votes
+Parsed result for candidate Noel Chambers (O'Malley) (009), DEM party, in race Delegate, National Convention 5th DEM (0024) with 0 votes
+Parsed result for candidate Vittorio Gomez (O'Malley) (010), DEM party, in race Delegate, National Convention 5th DEM (0024) with 0 votes
+Parsed result for candidate John S. Arena (Sanders) (011), DEM party, in race Delegate, National Convention 5th DEM (0024) with 0 votes
+Parsed result for candidate Rebecca Abraham (Sanders) (012), DEM party, in race Delegate, National Convention 5th DEM (0024) with 0 votes
+Parsed result for candidate Simone Rowen (Sanders) (013), DEM party, in race Delegate, National Convention 5th DEM (0024) with 0 votes
+Parsed result for candidate Troy A. LaRaviere (Sanders) (014), DEM party, in race Delegate, National Convention 5th DEM (0024) with 0 votes
+Parsed result for candidate Laura Sabransky (Sanders) (015), DEM party, in race Delegate, National Convention 5th DEM (0024) with 0 votes
+Parsed result for candidate William J. Perry (Sanders) (016), DEM party, in race Delegate, National Convention 5th DEM (0024) with 0 votes
+Parsed result for candidate Ira Acree (Clinton) (001), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Mattie Hunter (Clinton) (002), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate James F. Coyne (Clinton) (003), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Emma M. Mitts (Clinton) (004), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Larry Rogers, Jr. (Clinton) (005), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Eileen Kay Rhodes (Clinton) (006), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Michael Scott Jr. (Clinton) (007), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Anna Valencia (Clinton) (008), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate John A. West (Clinton) (009), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Tumia Romero (O'Malley) (010), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Tierra S. Jackson (O'Malley) (011), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Peggy A. Roth (O'Malley) (012), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Katrina Veerhusen (O'Malley) (013), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Anne Conderacci (O'Malley) (014), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Michael K. Forde (O'Malley) (015), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Joshua Sam Lapidus (O'Malley) (016), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Hugh R. McCombs (O'Malley) (017), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate La Shawn K. Ford (Sanders) (018), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Robert J. Peters (Sanders) (019), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Melissa Parks (Sanders) (020), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Robert Angert George (Sanders) (021), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Martin Ritter (Sanders) (022), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Jan Rodolfo (Sanders) (023), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Willie Mack (Sanders) (024), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Tara S. Stamps (Sanders) (025), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Brianna Tong (Sanders) (026), DEM party, in race Delegate, National Convention 7th DEM (0025) with 0 votes
+Parsed result for candidate Voda Ebeling (Clinton) (001), DEM party, in race Delegate, National Convention 9th DEM (0026) with 0 votes
+Parsed result for candidate Michael Cabonargi (Clinton) (002), DEM party, in race Delegate, National Convention 9th DEM (0026) with 0 votes
+Parsed result for candidate Lakshmi Lakshmanan (Clinton) (003), DEM party, in race Delegate, National Convention 9th DEM (0026) with 0 votes
+Parsed result for candidate Rick Garcia (Clinton) (004), DEM party, in race Delegate, National Convention 9th DEM (0026) with 0 votes
+Parsed result for candidate Josina Morita (Clinton) (005), DEM party, in race Delegate, National Convention 9th DEM (0026) with 0 votes
+Parsed result for candidate Lou Lang (Clinton) (006), DEM party, in race Delegate, National Convention 9th DEM (0026) with 0 votes
+Parsed result for candidate Heather A. Steans (Clinton) (007), DEM party, in race Delegate, National Convention 9th DEM (0026) with 0 votes
+Parsed result for candidate Devlin Kane (O'Malley) (008), DEM party, in race Delegate, National Convention 9th DEM (0026) with 0 votes
+Parsed result for candidate David Hatch (Sanders) (009), DEM party, in race Delegate, National Convention 9th DEM (0026) with 0 votes
+Parsed result for candidate Sharon Sanders (Sanders) (010), DEM party, in race Delegate, National Convention 9th DEM (0026) with 0 votes
+Parsed result for candidate Ed Mullen (Sanders) (011), DEM party, in race Delegate, National Convention 9th DEM (0026) with 0 votes
+Parsed result for candidate Kathleen Hogan (Sanders) (012), DEM party, in race Delegate, National Convention 9th DEM (0026) with 0 votes
+Parsed result for candidate Michael J. Harrington (Sanders) (013), DEM party, in race Delegate, National Convention 9th DEM (0026) with 0 votes
+Parsed result for candidate Mary Rita Luecke (Sanders) (014), DEM party, in race Delegate, National Convention 9th DEM (0026) with 0 votes
+Parsed result for candidate Ayo Maat (Sanders) (015), DEM party, in race Delegate, National Convention 9th DEM (0026) with 0 votes
+Parsed result for candidate Dan Johnson (Sanders) (016), DEM party, in race Delegate, National Convention 9th DEM (0026) with 0 votes
+Parsed result for candidate Antonio ''Tony'' Munoz (001), DEM party, in race State Senator, 1st District 4yr (0027) with 0 votes
+Parsed result for candidate Angelica Alfaro (001), DEM party, in race State Senator, 2nd District 2yr (0028) with 0 votes
+Parsed result for candidate Omar Aquino (002), DEM party, in race State Senator, 2nd District 2yr (0028) with 0 votes
+Parsed result for candidate Kimberly A. Lightford (001), DEM party, in race State Senator, 4th District 4yr (0029) with 0 votes
+Parsed result for candidate Patricia Van Pelt (001), DEM party, in race State Senator, 5th District 2yr (0030) with 0 votes
+Parsed result for candidate Robert ''Bob'' Fioretti (002), DEM party, in race State Senator, 5th District 2yr (0030) with 0 votes
+Parsed result for candidate Heather A. Steans (001), DEM party, in race State Senator, 7th District 4yr (0031) with 0 votes
+Parsed result for candidate Ira I. Silverstein (001), DEM party, in race State Senator, 8th District 2yr (0032) with 0 votes
+Parsed result for candidate John G. Mulroe (001), DEM party, in race State Senator, 10th District 4yr (0033) with 0 votes
+Parsed result for candidate Martin A. Sandoval (001), DEM party, in race State Senator, 11th District 2yr (0034) with 0 votes
+Parsed result for candidate Kwame Raoul (001), DEM party, in race State Senator, 13th District 4yr (0035) with 0 votes
+Parsed result for candidate Emil Jones III (001), DEM party, in race State Senator, 14th District 2yr (0036) with 0 votes
+Parsed result for candidate Jacqueline ''Jacqui'' Collins (001), DEM party, in race State Senator, 16th District 4yr (0037) with 0 votes
+Parsed result for candidate Donne E. Trotter (001), DEM party, in race State Senator, 17th District 2yr (0038) with 0 votes
+Parsed result for candidate Iris Y. Martinez (001), DEM party, in race State Senator, 20th District 2yr (0039) with 0 votes
+Parsed result for candidate Laura Murphy (001), DEM party, in race State Senator, 28th District 4yr (0040) with 0 votes
+Parsed result for candidate Daniel J. Burke (001), DEM party, in race State Representative, 1st District (0041) with 0 votes
+Parsed result for candidate Theresa Mah (001), DEM party, in race State Representative, 2nd District (0042) with 0 votes
+Parsed result for candidate Alexander ''Alex'' Acevedo (002), DEM party, in race State Representative, 2nd District (0042) with 0 votes
+Parsed result for candidate Luis Arroyo (001), DEM party, in race State Representative, 3rd District (0043) with 0 votes
+Parsed result for candidate Cynthia Soto (001), DEM party, in race State Representative, 4th District (0044) with 0 votes
+Parsed result for candidate Robert Zwolinski (Bob Z) (002), DEM party, in race State Representative, 4th District (0044) with 0 votes
+Parsed result for candidate Kenneth ''Ken'' Dunkin (001), DEM party, in race State Representative, 5th District (0045) with 0 votes
+Parsed result for candidate Juliana Stratton (002), DEM party, in race State Representative, 5th District (0045) with 0 votes
+Parsed result for candidate Darryl D. Smith (001), DEM party, in race State Representative, 6th District (0046) with 0 votes
+Parsed result for candidate Kenyatta Nicole Vaughn (002), DEM party, in race State Representative, 6th District (0046) with 0 votes
+Parsed result for candidate Genita C. Robinson (003), DEM party, in race State Representative, 6th District (0046) with 0 votes
+Parsed result for candidate Sonya Marie Harper (004), DEM party, in race State Representative, 6th District (0046) with 0 votes
+Parsed result for candidate La Shawn K. Ford (001), DEM party, in race State Representative, 8th District (0047) with 0 votes
+Parsed result for candidate Arthur Turner (001), DEM party, in race State Representative, 9th District (0048) with 0 votes
+Parsed result for candidate Melissa Conyears (001), DEM party, in race State Representative, 10th District (0049) with 0 votes
+Parsed result for candidate Ann M. Williams (001), DEM party, in race State Representative, 11th District (0050) with 0 votes
+Parsed result for candidate Sara Feigenholtz (001), DEM party, in race State Representative, 12th District (0051) with 0 votes
+Parsed result for candidate Gregory Harris (001), DEM party, in race State Representative, 13th District (0052) with 0 votes
+Parsed result for candidate Kelly M. Cassidy (001), DEM party, in race State Representative, 14th District (0053) with 0 votes
+Parsed result for candidate John C. D'Amico (001), DEM party, in race State Representative, 15th District (0054) with 0 votes
+Parsed result for candidate Jac Charlier (002), DEM party, in race State Representative, 15th District (0054) with 0 votes
+Parsed result for candidate Lou Lang (001), DEM party, in race State Representative, 16th District (0055) with 0 votes
+Parsed result for candidate Robert Martwick (001), DEM party, in race State Representative, 19th District (0056) with 0 votes
+Parsed result for candidate Merry Marwig (001), DEM party, in race State Representative, 20th District (0057) with 0 votes
+Parsed result for candidate Silvana Tabares (001), DEM party, in race State Representative, 21st District (0058) with 0 votes
+Parsed result for candidate Michael J. Madigan (001), DEM party, in race State Representative, 22nd District (0059) with 0 votes
+Parsed result for candidate Jason Gonzales (002), DEM party, in race State Representative, 22nd District (0059) with 0 votes
+Parsed result for candidate Joe G. Barboza (003), DEM party, in race State Representative, 22nd District (0059) with 0 votes
+Parsed result for candidate Grasiela Rodriguez (004), DEM party, in race State Representative, 22nd District (0059) with 0 votes
+Parsed result for candidate Michael J. Zalewski (001), DEM party, in race State Representative, 23rd District (0060) with 0 votes
+Parsed result for candidate Elizabeth ''Lisa'' Hernandez (001), DEM party, in race State Representative, 24th District (0061) with 0 votes
+Parsed result for candidate Barbara Flynn Currie (001), DEM party, in race State Representative, 25th District (0062) with 0 votes
+Parsed result for candidate Jhatayn 'Jay' Travis (001), DEM party, in race State Representative, 26th District (0063) with 0 votes
+Parsed result for candidate Christian L. Mitchell (002), DEM party, in race State Representative, 26th District (0063) with 0 votes
+Parsed result for candidate Monique D. Davis (001), DEM party, in race State Representative, 27th District (0064) with 0 votes
+Parsed result for candidate Robert ''Bob'' Rita (001), DEM party, in race State Representative, 28th District (0065) with 0 votes
+Parsed result for candidate Wilbur ''Will'' Tillman (001), DEM party, in race State Representative, 29th District (0066) with 0 votes
+Parsed result for candidate Thaddeus Jones (002), DEM party, in race State Representative, 29th District (0066) with 0 votes
+Parsed result for candidate Kenneth ''Kenny'' Williams (003), DEM party, in race State Representative, 29th District (0066) with 0 votes
+Parsed result for candidate Mary E. Flowers (001), DEM party, in race State Representative, 31st District (0067) with 0 votes
+Parsed result for candidate André Thapedi (001), DEM party, in race State Representative, 32nd District (0068) with 0 votes
+Parsed result for candidate Marcus C. Evans, Jr. (001), DEM party, in race State Representative, 33rd District (0069) with 0 votes
+Parsed result for candidate Elgie R. Sims, Jr. (001), DEM party, in race State Representative, 34th District (0070) with 0 votes
+Parsed result for candidate Frances Ann Hurley (001), DEM party, in race State Representative, 35th District (0071) with 0 votes
+Parsed result for candidate Kelly M. Burke (001), DEM party, in race State Representative, 36th District (0072) with 0 votes
+Parsed result for candidate Will Guzzardi (001), DEM party, in race State Representative, 39th District (0073) with 0 votes
+Parsed result for candidate Harish I. Patel (001), DEM party, in race State Representative, 40th District (0074) with 0 votes
+Parsed result for candidate Jaime M. Andrade, Jr. (002), DEM party, in race State Representative, 40th District (0074) with 0 votes
+Parsed result for candidate Martin J. Moylan (001), DEM party, in race State Representative, 55th District (0075) with 0 votes
+Parsed result for candidate Camille Lilly (001), DEM party, in race State Representative, 78th District (0076) with 0 votes
+Parsed result for candidate Kevin McDevitt (001), DEM party, in race Commissioner, Water Reclamation Dist (0077) with 0 votes
+Parsed result for candidate Barbara McGowan (002), DEM party, in race Commissioner, Water Reclamation Dist (0077) with 0 votes
+Parsed result for candidate Mariyana T. Spyropoulos (003), DEM party, in race Commissioner, Water Reclamation Dist (0077) with 0 votes
+Parsed result for candidate Josina Morita (004), DEM party, in race Commissioner, Water Reclamation Dist (0077) with 0 votes
+Parsed result for candidate R. Cary Capparelli (005), DEM party, in race Commissioner, Water Reclamation Dist (0077) with 0 votes
+Parsed result for candidate Joseph Daniel Cook (006), DEM party, in race Commissioner, Water Reclamation Dist (0077) with 0 votes
+Parsed result for candidate Andrew Seo (001), DEM party, in race Commissioner, Water Reclamation Dist 2yr (0078) with 0 votes
+Parsed result for candidate Tom Greenhaw (002), DEM party, in race Commissioner, Water Reclamation Dist 2yr (0078) with 0 votes
+Parsed result for candidate Martin J. Durkan (003), DEM party, in race Commissioner, Water Reclamation Dist 2yr (0078) with 0 votes
+Parsed result for candidate Kim Foxx (001), DEM party, in race State's Attorney, Cook County (0079) with 0 votes
+Parsed result for candidate Anita Alvarez (002), DEM party, in race State's Attorney, Cook County (0079) with 0 votes
+Parsed result for candidate Donna More (003), DEM party, in race State's Attorney, Cook County (0079) with 0 votes
+Parsed result for candidate Jacob Meister (001), DEM party, in race Clerk of the Circuit Court, Cook County (0080) with 0 votes
+Parsed result for candidate Dorothy A. Brown (002), DEM party, in race Clerk of the Circuit Court, Cook County (0080) with 0 votes
+Parsed result for candidate Michelle A. Harris (003), DEM party, in race Clerk of the Circuit Court, Cook County (0080) with 0 votes
+Parsed result for candidate Karen A. Yarbrough (001), DEM party, in race Recorder of Deeds, Cook County (0081) with 0 votes
+Parsed result for candidate No Candidate (001), DEM party, in race Board of Review, 1st District (0082) with 0 votes
+Parsed result for candidate Michael Cabonargi (001), DEM party, in race Board of Review, 2nd District (0083) with 0 votes
+Parsed result for candidate Eileen O'Neill Burke (001), DEM party, in race Appellate Court Judge (Vacancy of Epstein) (0084) with 0 votes
+Parsed result for candidate Bertina E. Lampkin (001), DEM party, in race Appellate Court Judge (Vacancy of Quinn) (0085) with 0 votes
+Parsed result for candidate John Fitzgerald Lyke, Jr. (001), DEM party, in race Circuit Court Judge (Vacancy of Biebel, Jr.) (0086) with 0 votes
+Parsed result for candidate Scott Edward Lipinski (001), DEM party, in race Circuit Court Judge (Vacancy of Elrod) (0087) with 0 votes
+Parsed result for candidate Rossana Patricia Fernandez (002), DEM party, in race Circuit Court Judge (Vacancy of Elrod) (0087) with 0 votes
+Parsed result for candidate Michael I. O'Malley (001), DEM party, in race Circuit Court Judge (Vacancy of Hogan) (0088) with 0 votes
+Parsed result for candidate Alison C. Conlon (002), DEM party, in race Circuit Court Judge (Vacancy of Hogan) (0088) with 0 votes
+Parsed result for candidate Aleksandra ''Alex'' Gillespie (001), DEM party, in race Circuit Court Judge (Vacancy of Howlett, Jr.) (0089) with 0 votes
+Parsed result for candidate Thomas Maloney Cushing (002), DEM party, in race Circuit Court Judge (Vacancy of Howlett, Jr.) (0089) with 0 votes
+Parsed result for candidate Gregory Raymond LaPapa (001), DEM party, in race Circuit Court Judge (Vacancy of Johnson) (0090) with 0 votes
+Parsed result for candidate Sean S. Chaudhuri (002), DEM party, in race Circuit Court Judge (Vacancy of Johnson) (0090) with 0 votes
+Parsed result for candidate Mark A. Lyon (003), DEM party, in race Circuit Court Judge (Vacancy of Johnson) (0090) with 0 votes
+Parsed result for candidate Carolyn J. Gallagher (004), DEM party, in race Circuit Court Judge (Vacancy of Johnson) (0090) with 0 votes
+Parsed result for candidate Bonnie Carol McGrath (005), DEM party, in race Circuit Court Judge (Vacancy of Johnson) (0090) with 0 votes
+Parsed result for candidate Mary Kathleen McHugh (001), DEM party, in race Circuit Court Judge (Vacancy of Karnezis) (0091) with 0 votes
+Parsed result for candidate Devlin J. Schoop (002), DEM party, in race Circuit Court Judge (Vacancy of Karnezis) (0091) with 0 votes
+Parsed result for candidate Brian J O'Hara (003), DEM party, in race Circuit Court Judge (Vacancy of Karnezis) (0091) with 0 votes
+Parsed result for candidate Brendan A. O'Brien (001), DEM party, in race Circuit Court Judge (Vacancy of Love) (0092) with 0 votes
+Parsed result for candidate Maureen O'Donoghue Hannon (001), DEM party, in race Circuit Court Judge (Vacancy of O'Brien) (0093) with 0 votes
+Parsed result for candidate Pat Heneghan (001), DEM party, in race Circuit Court Judge (Vacancy of Palmer) (0094) with 0 votes
+Parsed result for candidate Susana L. Ortiz (002), DEM party, in race Circuit Court Judge (Vacancy of Palmer) (0094) with 0 votes
+Parsed result for candidate Deidre Baumann (003), DEM party, in race Circuit Court Judge (Vacancy of Palmer) (0094) with 0 votes
+Parsed result for candidate William S. Wojcik (002), DEM party, in race Circuit Court Judge (Vacancy of Ruscitti Grussel) (0095) with 0 votes
+Parsed result for candidate Daniel Patrick Duffy (003), DEM party, in race Circuit Court Judge (Vacancy of Ruscitti Grussel) (0095) with 0 votes
+Parsed result for candidate Monica M. Torres-Linares (004), DEM party, in race Circuit Court Judge (Vacancy of Ruscitti Grussel) (0095) with 0 votes
+Parsed result for candidate Patrick Joseph Powers (001), DEM party, in race Circuit Court Judge (Vacancy of Walsh) (0096) with 0 votes
+Parsed result for candidate Fredrick H. Bates (002), DEM party, in race Circuit Court Judge (Vacancy of Walsh) (0096) with 0 votes
+Parsed result for candidate Jesse Outlaw (001), DEM party, in race Judge, 1st Subcircuit (Vacancy of Brim) (0097) with 0 votes
+Parsed result for candidate Maryam Ahmad (002), DEM party, in race Judge, 1st Subcircuit (Vacancy of Brim) (0097) with 0 votes
+Parsed result for candidate Anthony E. Simpkins (001), DEM party, in race Judge, 1st Subcircuit (Vacancy of Hopkins) (0098) with 0 votes
+Parsed result for candidate Rhonda Crawford (002), DEM party, in race Judge, 1st Subcircuit (Vacancy of Hopkins) (0098) with 0 votes
+Parsed result for candidate Lisa A. Copland (003), DEM party, in race Judge, 1st Subcircuit (Vacancy of Hopkins) (0098) with 0 votes
+Parsed result for candidate Celeste K. Jones (001), DEM party, in race Judge, 2nd Subcircuit (Vacancy of Savage) (0099) with 0 votes
+Parsed result for candidate Chelsey R. Robinson (002), DEM party, in race Judge, 2nd Subcircuit (Vacancy of Savage) (0099) with 0 votes
+Parsed result for candidate D. Renee Jackson (003), DEM party, in race Judge, 2nd Subcircuit (Vacancy of Savage) (0099) with 0 votes
+Parsed result for candidate Travis Richardson (004), DEM party, in race Judge, 2nd Subcircuit (Vacancy of Savage) (0099) with 0 votes
+Parsed result for candidate Jameika Mangum (001), DEM party, in race Judge, 5th Subcircuit (Vacancy of Eadie-Daniels) (0100) with 0 votes
+Parsed result for candidate Leonard Murray (002), DEM party, in race Judge, 5th Subcircuit (Vacancy of Eadie-Daniels) (0100) with 0 votes
+Parsed result for candidate Freddrenna M. Lyle (001), DEM party, in race Judge, 5th Subcircuit (Vacancy of Stuart) (0101) with 0 votes
+Parsed result for candidate Daryl Jones (001), DEM party, in race Judge, 5th Subcircuit (Vacancy of Williams) (0102) with 0 votes
+Parsed result for candidate Robin Denise Shoffner (002), DEM party, in race Judge, 5th Subcircuit (Vacancy of Williams) (0102) with 0 votes
+Parsed result for candidate Eulalia ''Evie'' De La Rosa (001), DEM party, in race Judge, 6th Subcircuit (Vacancy of Ponce de Leon) (0103) with 0 votes
+Parsed result for candidate Richard C. Cooke (001), DEM party, in race Judge, 6th Subcircuit (Vac of Gonzalez Santiago) (0104) with 0 votes
+Parsed result for candidate Anna Loftus (001), DEM party, in race Judge, 6th Subcircuit (Additional Judgeship A) (0105) with 0 votes
+Parsed result for candidate Edward J. Underhill (002), DEM party, in race Judge, 6th Subcircuit (Additional Judgeship A) (0105) with 0 votes
+Parsed result for candidate Carlos Claudio (003), DEM party, in race Judge, 6th Subcircuit (Additional Judgeship A) (0105) with 0 votes
+Parsed result for candidate Marianne Jackson (001), DEM party, in race Judge, 7th Subcircuit (Vacancy of Burrell) (0106) with 0 votes
+Parsed result for candidate Patricia ''Pat'' S. Spratt (001), DEM party, in race Judge, 7th Subcircuit (Vac of Rivkin-Carothers) (0107) with 0 votes
+Parsed result for candidate Christopher J. Stuart (002), DEM party, in race Judge, 7th Subcircuit (Vac of Rivkin-Carothers) (0107) with 0 votes
+Parsed result for candidate Jennifer Ballard (003), DEM party, in race Judge, 7th Subcircuit (Vac of Rivkin-Carothers) (0107) with 0 votes
+Parsed result for candidate Mable Taylor (004), DEM party, in race Judge, 7th Subcircuit (Vac of Rivkin-Carothers) (0107) with 0 votes
+Parsed result for candidate Patrick D. John (005), DEM party, in race Judge, 7th Subcircuit (Vac of Rivkin-Carothers) (0107) with 0 votes
+Parsed result for candidate Rosa Silva (006), DEM party, in race Judge, 7th Subcircuit (Vac of Rivkin-Carothers) (0107) with 0 votes
+Parsed result for candidate Thomas Peter Kougias (001), DEM party, in race Judge, 9th Subcircuit (Vacancy of Berman) (0108) with 0 votes
+Parsed result for candidate Jerry Esrig (002), DEM party, in race Judge, 9th Subcircuit (Vacancy of Berman) (0108) with 0 votes
+Parsed result for candidate Colleen Reardon Daly (001), DEM party, in race Judge, 10th Subcircuit (Vacancy of Howard) (0109) with 0 votes
+Parsed result for candidate Eve Marie Reilly (002), DEM party, in race Judge, 10th Subcircuit (Vacancy of Howard) (0109) with 0 votes
+Parsed result for candidate Michael John Malatesta (003), DEM party, in race Judge, 10th Subcircuit (Vacancy of Howard) (0109) with 0 votes
+Parsed result for candidate Richard ''Rick'' Cenar (004), DEM party, in race Judge, 10th Subcircuit (Vacancy of Howard) (0109) with 0 votes
+Parsed result for candidate Marc Martin (001), DEM party, in race Judge, 11th Subcircuit (Vacancy of Kelly) (0110) with 0 votes
+Parsed result for candidate James DiChristofano (002), DEM party, in race Judge, 11th Subcircuit (Vacancy of Kelly) (0110) with 0 votes
+Parsed result for candidate Catherine Ann Schneider (003), DEM party, in race Judge, 11th Subcircuit (Vacancy of Kelly) (0110) with 0 votes
+Parsed result for candidate William B. Sullivan (001), DEM party, in race Judge, 11th Subcircuit (Vacancy of Zwick) (0111) with 0 votes
+Parsed result for candidate Matthew Link (001), DEM party, in race Judge, 14th Subcircuit (Vacancy of Ruble Murphy) (0112) with 0 votes
+Parsed result for candidate Proco ''Joe'' Moreno (001), DEM party, in race Ward Committeeman, Dem 1st (0113) with 0 votes
+Parsed result for candidate Maria Teresa Gonzalez (002), DEM party, in race Ward Committeeman, Dem 1st (0113) with 0 votes
+Parsed result for candidate Tim Egan (001), DEM party, in race Ward Committeeman, Dem 2nd (0114) with 0 votes
+Parsed result for candidate Pat Dowell (001), DEM party, in race Ward Committeeman, Dem 3rd (0115) with 0 votes
+Parsed result for candidate Toni Reed Preckwinkle (001), DEM party, in race Ward Committeeman, Dem 4th (0116) with 0 votes
+Parsed result for candidate Leslie A. Hairston (001), DEM party, in race Ward Committeeman, Dem 5th (0117) with 0 votes
+Parsed result for candidate Roderick T. Sawyer (001), DEM party, in race Ward Committeeman, Dem 6th (0118) with 0 votes
+Parsed result for candidate Gregory I. Mitchell (001), DEM party, in race Ward Committeeman, Dem 7th (0119) with 0 votes
+Parsed result for candidate Michelle A. Harris (001), DEM party, in race Ward Committeeman, Dem 8th (0120) with 0 votes
+Parsed result for candidate Anthony A. Beale (001), DEM party, in race Ward Committeeman, Dem 9th (0121) with 0 votes
+Parsed result for candidate Fred Carrizales (001), DEM party, in race Ward Committeeman, Dem 10th (0122) with 0 votes
+Parsed result for candidate Susan Sadlowski Garza (002), DEM party, in race Ward Committeeman, Dem 10th (0122) with 0 votes
+Parsed result for candidate John P. Daley (001), DEM party, in race Ward Committeeman, Dem 11th (0123) with 0 votes
+Parsed result for candidate George Cardenas (001), DEM party, in race Ward Committeeman, Dem 12th (0124) with 0 votes
+Parsed result for candidate Antonio ''Tony'' Munoz (002), DEM party, in race Ward Committeeman, Dem 12th (0124) with 0 votes
+Parsed result for candidate Michael J. Madigan (001), DEM party, in race Ward Committeeman, Dem 13th (0125) with 0 votes
+Parsed result for candidate Edward M. Burke (001), DEM party, in race Ward Committeeman, Dem 14th (0126) with 0 votes
+Parsed result for candidate Raymond A. Lopez (001), DEM party, in race Ward Committeeman, Dem 15th (0127) with 0 votes
+Parsed result for candidate Toni L. Foulkes (001), DEM party, in race Ward Committeeman, Dem 16th (0128) with 0 votes
+Parsed result for candidate Nathan Wilson (002), DEM party, in race Ward Committeeman, Dem 16th (0128) with 0 votes
+Parsed result for candidate Stephanie D. Coleman (003), DEM party, in race Ward Committeeman, Dem 16th (0128) with 0 votes
+Parsed result for candidate David Moore (001), DEM party, in race Ward Committeeman, Dem 17th (0129) with 0 votes
+Parsed result for candidate Derrick G. Curtis (001), DEM party, in race Ward Committeeman, Dem 18th (0130) with 0 votes
+Parsed result for candidate Matthew J. O'Shea (001), DEM party, in race Ward Committeeman, Dem 19th (0131) with 0 votes
+Parsed result for candidate Kevin Bailey (001), DEM party, in race Ward Committeeman, Dem 20th (0132) with 0 votes
+Parsed result for candidate Howard B. Brookins, Jr. (001), DEM party, in race Ward Committeeman, Dem 21st (0133) with 0 votes
+Parsed result for candidate Michael D. Rodriguez (001), DEM party, in race Ward Committeeman, Dem 22nd (0134) with 0 votes
+Parsed result for candidate Michael R. Zalewski (001), DEM party, in race Ward Committeeman, Dem 23rd (0135) with 0 votes
+Parsed result for candidate Charles M. Hughes (002), DEM party, in race Ward Committeeman, Dem 23rd (0135) with 0 votes
+Parsed result for candidate Michael Scott, Jr. (001), DEM party, in race Ward Committeeman, Dem 24th (0136) with 0 votes
+Parsed result for candidate Daniel ''Danny'' Solis (001), DEM party, in race Ward Committeeman, Dem 25th (0137) with 0 votes
+Parsed result for candidate Roberto Maldonado (001), DEM party, in race Ward Committeeman, Dem 26th (0138) with 0 votes
+Parsed result for candidate Walter Burnett, Jr. (001), DEM party, in race Ward Committeeman, Dem 27th (0139) with 0 votes
+Parsed result for candidate Jason C. Ervin (001), DEM party, in race Ward Committeeman, Dem 28th (0140) with 0 votes
+Parsed result for candidate Christopher Taliaferro (001), DEM party, in race Ward Committeeman, Dem 29th (0141) with 0 votes
+Parsed result for candidate Ariel E. Reboyras (001), DEM party, in race Ward Committeeman, Dem 30th (0142) with 0 votes
+Parsed result for candidate Noe Favela (002), DEM party, in race Ward Committeeman, Dem 30th (0142) with 0 votes
+Parsed result for candidate Joseph Berrios (001), DEM party, in race Ward Committeeman, Dem 31st (0143) with 0 votes
+Parsed result for candidate Scott Waguespack (001), DEM party, in race Ward Committeeman, Dem 32nd (0144) with 0 votes
+Parsed result for candidate Richard F. Mell (001), DEM party, in race Ward Committeeman, Dem 33rd (0145) with 0 votes
+Parsed result for candidate Aaron Goldstein (002), DEM party, in race Ward Committeeman, Dem 33rd (0145) with 0 votes
+Parsed result for candidate Carrie M. Austin (001), DEM party, in race Ward Committeeman, Dem 34th (0146) with 0 votes
+Parsed result for candidate Carlos Ramirez-Rosa (001), DEM party, in race Ward Committeeman, Dem 35th (0147) with 0 votes
+Parsed result for candidate Luis Arroyo (001), DEM party, in race Ward Committeeman, Dem 36th (0148) with 0 votes
+Parsed result for candidate Emma M. Mitts (001), DEM party, in race Ward Committeeman, Dem 37th (0149) with 0 votes
+Parsed result for candidate Nicholas Sposato (001), DEM party, in race Ward Committeeman, Dem 38th (0150) with 0 votes
+Parsed result for candidate Robert Murphy (001), DEM party, in race Ward Committeeman, Dem 39th (0151) with 0 votes
+Parsed result for candidate Patrick Molloy (002), DEM party, in race Ward Committeeman, Dem 39th (0151) with 0 votes
+Parsed result for candidate Patrick J. O'Connor (001), DEM party, in race Ward Committeeman, Dem 40th (0152) with 0 votes
+Parsed result for candidate Dianne Daleiden (002), DEM party, in race Ward Committeeman, Dem 40th (0152) with 0 votes
+Parsed result for candidate Andrew Devito (001), DEM party, in race Ward Committeeman, Dem 41st (0153) with 0 votes
+Parsed result for candidate Tim Heneghan (002), DEM party, in race Ward Committeeman, Dem 41st (0153) with 0 votes
+Parsed result for candidate Goran Davidovac (003), DEM party, in race Ward Committeeman, Dem 41st (0153) with 0 votes
+Parsed result for candidate Brendan Reilly (001), DEM party, in race Ward Committeeman, Dem 42nd (0154) with 0 votes
+Parsed result for candidate Lucy Moog (001), DEM party, in race Ward Committeeman, Dem 43rd (0155) with 0 votes
+Parsed result for candidate Tom Tunney (001), DEM party, in race Ward Committeeman, Dem 44th (0156) with 0 votes
+Parsed result for candidate John S. Arena (001), DEM party, in race Ward Committeeman, Dem 45th (0157) with 0 votes
+Parsed result for candidate James Cappleman (001), DEM party, in race Ward Committeeman, Dem 46th (0158) with 0 votes
+Parsed result for candidate Paul Rosenfeld (001), DEM party, in race Ward Committeeman, Dem 47th (0159) with 0 votes
+Parsed result for candidate Carol Ronen (001), DEM party, in race Ward Committeeman, Dem 48th (0160) with 0 votes
+Parsed result for candidate Joe Moore (001), DEM party, in race Ward Committeeman, Dem 49th (0161) with 0 votes
+Parsed result for candidate Ira I. Silverstein (001), DEM party, in race Ward Committeeman, Dem 50th (0162) with 0 votes
+Parsed result for candidate Jeb Bush (001), REP party, in race President, U.S. (0163) with 0 votes
+Parsed result for candidate Chris Christie (002), REP party, in race President, U.S. (0163) with 0 votes
+Parsed result for candidate Donald J. Trump (003), REP party, in race President, U.S. (0163) with 0 votes
+Parsed result for candidate Ted Cruz (004), REP party, in race President, U.S. (0163) with 0 votes
+Parsed result for candidate Marco Rubio (005), REP party, in race President, U.S. (0163) with 0 votes
+Parsed result for candidate Rand Paul (006), REP party, in race President, U.S. (0163) with 0 votes
+Parsed result for candidate Carly Fiorina (007), REP party, in race President, U.S. (0163) with 0 votes
+Parsed result for candidate Mike Huckabee (008), REP party, in race President, U.S. (0163) with 0 votes
+Parsed result for candidate Rick Santorum (009), REP party, in race President, U.S. (0163) with 0 votes
+Parsed result for candidate John R. Kasich (010), REP party, in race President, U.S. (0163) with 0 votes
+Parsed result for candidate Ben Carson (011), REP party, in race President, U.S. (0163) with 0 votes
+Parsed result for candidate James T. Marter (001), REP party, in race Senator, U.S. (0164) with 0 votes
+Parsed result for candidate Mark Steven Kirk (002), REP party, in race Senator, U.S. (0164) with 0 votes
+Parsed result for candidate Leslie Geissler Munger (001), REP party, in race Comptroller, State of Illinois (0165) with 0 votes
+Parsed result for candidate August (O'Neill) Deuser (001), REP party, in race U.S. Representative, 1st District (0166) with 0 votes
+Parsed result for candidate Jimmy Lee Tillman, II (002), REP party, in race U.S. Representative, 1st District (0166) with 0 votes
+Parsed result for candidate John F Morrow (001), REP party, in race U.S. Representative, 2nd District (0167) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race U.S. Representative, 3rd District (0168) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race U.S. Representative, 4th District (0169) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race U.S. Representative, 5th District (0170) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race U.S. Representative, 7th District (0171) with 0 votes
+Parsed result for candidate Joan McCarthy Lasonde (001), REP party, in race U.S. Representative, 9th District (0172) with 0 votes
+Parsed result for candidate Robert Russell Kijak (Christie) (001), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Jean Wayner (Christie) (002), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Antonio Alonso (Trump) (003), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Michael Burke (Trump) (004), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Christopher Hilliard (Trump) (005), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Kirstie Ann Brenson (Bush) (006), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Jeffrey S. Arseneau (Bush) (007), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Patrick E. Rea (Bush) (008), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Karen Ann Hayes (Cruz) (009), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Audrey A. Tancos (Cruz) (010), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Gina M. Danaher (Cruz) (011), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Joann Kelly (Fiorina) (012), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Norman Stanley (Fiorina) (013), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Mary P. Geringer (Fiorina) (014), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Shaun Colin Murphy (Kasich) (015), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Matthew T. Murphy (Kasich) (016), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Kevin Suggs (Kasich) (017), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Darnell B. Macklin (Carson) (018), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Michael J. Uremovich (Carson) (019), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Symeon Brown (Paul) (020), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Margo McDermed (Rubio) (021), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Corey Brooks (Rubio) (022), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Raymond Tuminello (Rubio) (023), REP party, in race Delegate, National Convention 1st REP (0173) with 0 votes
+Parsed result for candidate Dale Charletta (Trump) (001), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Gregg Fletcher (Trump) (002), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Renard Harvey (Trump) (003), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Alexandra Dumezich (Bush) (004), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Kathleen R. Rudis (Bush) (005), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Timothy J. Rudis (Bush) (006), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Laura Elsner (Cruz) (007), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Megan T. Jurewicz (Cruz) (008), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Cynthia L. Gilles (Cruz) (009), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Kristen McChesney (Christie) (010), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate William S. Senf (Christie) (011), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Kelly A. Senf (Christie) (012), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Daniel Marzano (Fiorina) (013), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Danielle Marzano (Fiorina) (014), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate James ''Jim'' Talbot (Fiorina) (015), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Dean A. Casper Jr. (Kasich) (016), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Jeannie Young Evans (Kasich) (017), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Kevin Truitt (Carson) (018), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Katherine L. Mays (Carson) (019), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Diane E. Wilczak (Carson) (020), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Matthew Foldi (Rubio) (021), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate David Smith (Rubio) (022), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Kathy Hilton (Rubio) (023), REP party, in race Alternate Delegate, Natl Conv 1st REP (0174) with 0 votes
+Parsed result for candidate Jamie Boyd (Bush) (001), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Michael Bossert (Bush) (002), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Jeff Keast (Bush) (003), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Pleas Honeywood (Christie) (004), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Jeffrey Schimke (Christie) (005), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Karen W. Sommerfield (Christie) (006), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate David E. Smith (Cruz) (007), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Michael P. Hildebrand (Cruz) (008), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Lance L. Davis (Cruz) (009), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Taneequa Tolbert (Trump) (010), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Rita Gaus (Trump) (011), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate James Devors (Trump) (012), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Douglas Hoekstra (Fiorina) (013), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Charon Bryson (Fiorina) (014), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Quintin Barton (Fiorina) (015), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Judy A. Diekelman (Kasich) (016), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Jayne L. Raef (Kasich) (017), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Joseph W. Burgess (Kasich) (018), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate George L. Pearson (Carson) (019), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Dezaree Oliver-Pearson (Carson) (020), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Ceasar I. Leflore (Carson) (021), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Jay Farquhar (Rubio) (022), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Judy Ogalla (Rubio) (023), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Kurt Diekelman (Rubio) (024), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Anthony Raczek (Paul) (025), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Pedro Solis (Paul) (026), REP party, in race Delegate, National Convention 2nd REP (0175) with 0 votes
+Parsed result for candidate Todd E. Arseneau (Bush) (001), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Darren C. Collier (Bush) (002), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Timothy Bukowski (Bush) (003), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Ryan Nolan (Trump) (004), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Shane Chomko (Trump) (005), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Keith Cooper (Trump) (006), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Israel J. Smith (Christie) (007), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Wanda Cantrell (Christie) (008), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Tondalaya Marie Nelson (Christie) (009), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Kathleen E. Valente (Cruz) (010), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Margaret Annunziata (Cruz) (011), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Caleb C. Fisher (Cruz) (012), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Holly Czajkowski (Fiorina) (013), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Carol Dudlack (Fiorina) (014), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Cheryl Simanek (Fiorina) (015), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Wayland C. Johnson (Kasich) (016), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Stephen E. Liehr (Kasich) (017), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Barbara J. Peterson (Kasich) (018), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate David P. Dersien (Carson) (019), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Douglas V. Horne (Carson) (020), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Philanise N. White (Carson) (021), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Kristi Delaurentiis (Rubio) (022), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Antonio Carrico (Rubio) (023), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Miriam Shabo (Rubio) (024), REP party, in race Alternate Delegate, Natl Conv 2nd REP (0176) with 0 votes
+Parsed result for candidate Stephen J. Balich (Cruz) (001), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Jerry Randick (Cruz) (002), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Nancy Ann Powell-Hayes (Cruz) (003), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Thomas Beller (Christie) (004), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Patrick Hackett (Christie) (005), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Kathryn Meyer (Christie) (006), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate John Lynch (Trump) (007), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Cynthia Schaffer (Trump) (008), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Bob Anderson (Trump) (009), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Colleen Grant Schumann (Bush) (010), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Scott McPherson (Bush) (011), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Ian Brenson (Bush) (012), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Salvador ''Tony'' Godinez (Fiorina) (013), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Sharon Kubasak (Fiorina) (014), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Deborah ''Debbie'' Burzinski (Fiorina) (015), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Christine Radogno (Kasich) (016), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Sean M. Morrison (Kasich) (017), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Elizabeth Ann Gorman (Kasich) (018), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate John Pappas (Paul) (019), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Dan Mitchell (Paul) (020), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Harry W. Oryhon (Carson) (021), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Mark S. Zajac (Carson) (022), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Barbara F. Hoffman (Carson) (023), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Herb Schumann (Rubio) (024), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate Michael Lapidus (Rubio) (025), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate George Yukich (Rubio) (026), REP party, in race Delegate, National Convention 3rd REP (0177) with 0 votes
+Parsed result for candidate G. Joel Baise (Bush) (001), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate George Offord (Bush) (002), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Ben Noble (Bush) (003), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Kimberly Blackburn (Christie) (004), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Louis G. Rexing (Christie) (005), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Matthew Moustakas (Christie) (006), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Vince Matonis (Trump) (007), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Geraldine Brady (Trump) (008), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Nena Mihailovic (Trump) (009), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Vivienne Porter (Cruz) (010), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Madelyn D. Flaherty (Cruz) (011), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Alaa N. Sweis (Cruz) (012), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Ronald Armstrong (Fiorina) (013), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Richard ''Dick'' Halm (Fiorina) (014), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Jeffrey ''Jeff'' Baker (Fiorina) (015), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate James J. Parrilli (Kasich) (016), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Andrew J. Kirchoff (Kasich) (017), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate William J. Corley (Kasich) (018), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Steven Daglas (Rubio) (019), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Katie Justak (Rubio) (020), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Tyler Mikan (Rubio) (021), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate John D. Brannen (Carson) (022), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate John D'Alessandro (Carson) (023), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Gael Heppner (Carson) (024), REP party, in race Alternate Delegate, Natl Conv 3rd REP (0178) with 0 votes
+Parsed result for candidate Robert V. Boharic (Cruz) (001), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Ebelio Paul Fuentes (Cruz) (002), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Allison Ashby (Cruz) (003), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Amy Hopcian (Christie) (004), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Matthew Hickey (Christie) (005), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Randy Kantner (Christie) (006), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Kevin Jayne (Trump) (007), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Eric Sawchuk (Trump) (008), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Rolando Arellano (Trump) (009), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Maureen Lydon (Bush) (010), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Walter Zarnecki (Bush) (011), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Ramiro Gonzalez (Bush) (012), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Anna Igoe (Fiorina) (013), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Michael Houlihan (Fiorina) (014), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate James Kales (Fiorina) (015), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Michael C. Dropka (Kasich) (016), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Jesus Reyes Jr. (Kasich) (017), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Thomas A. Volini (Kasich) (018), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Maria C. Moreno (Rubio) (019), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Lionel Garcia (Rubio) (020), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Danielle Vlcek (Rubio) (021), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Jennifer E. Bardy (Carson) (022), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Dieter O. Bardy (Carson) (023), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Citlally Mancilla (Carson) (024), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Todd Peterson (Paul) (025), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Carlos Estrada (Paul) (026), REP party, in race Delegate, National Convention 4th REP (0179) with 0 votes
+Parsed result for candidate Guadalupe Jose Flores (Cruz) (001), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Steven J. Jedd (Cruz) (002), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Michael S. Toleman (Cruz) (003), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Justin Krope (Trump) (004), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Diana Jayne (Trump) (005), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Richard Sawchuk (Trump) (006), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Glen Samson (Christie) (007), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Carol Kissane (Christie) (008), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Gerard M. Kraus (Christie) (009), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Jesus E. Solorio (Bush) (010), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Louis J. Rodriguez (Bush) (011), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Joseph Urani (Bush) (012), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Richard Beierwaltes (Fiorina) (013), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Helen Manson (Fiorina) (014), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Susan Chmelik (Fiorina) (015), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Timothy W. Heilenbach (Kasich) (016), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Vera A. Wilt (Kasich) (017), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Ann Melichar (Kasich) (018), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Karen Pulia (Rubio) (019), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Tom Tomschin (Rubio) (020), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Daniela Garcia (Rubio) (021), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Alejandrino Diaz Jr. (Carson) (022), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Welson Cesar (Carson) (023), REP party, in race Alternate Delegate, Natl Conv 4th REP (0180) with 0 votes
+Parsed result for candidate Lauren Baker (Christie) (001), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Christopher M. Adams (Christie) (002), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Robert O'Malley (Christie) (003), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Chris Cleveland (Cruz) (004), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Sean O'Leary (Cruz) (005), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate James Strzalka (Cruz) (006), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate John M. Dorgan (Bush) (007), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Chris Nybo (Bush) (008), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate R. Stratford Shields (Bush) (009), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Kathleen Goro (Trump) (010), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Lori Gayne (Trump) (011), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Mark Fratella (Trump) (012), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Allen Carter (Fiorina) (013), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Mary Carter (Fiorina) (014), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Michael Golde (Fiorina) (015), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Daniel J. Cronin (Kasich) (016), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Dale E. Kleber (Kasich) (017), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Kayleen M. Carlson (Kasich) (018), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Christopher Grozev (Rubio) (019), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate A. Christine Svenson (Rubio) (020), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Mark Cavers (Rubio) (021), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Scott Davis (Paul) (022), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate James Babiarz (Paul) (023), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Ruben Chaljub (Paul) (024), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Christian C. Schultz (Carson) (025), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Walter L. Crowley (Carson) (026), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Robert J. Mowry (Carson) (027), REP party, in race Delegate, National Convention 5th REP (0181) with 0 votes
+Parsed result for candidate Phyllis Demarco (Cruz) (001), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Sara Marie Lamantia (Cruz) (002), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Brad Messervey (Cruz) (003), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate James Ignatowski (Trump) (004), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Steve Bayne (Trump) (005), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Cathryn Biga (Trump) (006), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Angelo ''Skip'' Saviano (Bush) (007), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Amy S. Findlay (Bush) (008), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Ron Gidwitz (Bush) (009), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Heather E. Way Kitzes (Christie) (010), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Ashvin Lad (Christie) (011), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Alexander Doberstein (Christie) (012), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Scott Newhall (Fiorina) (013), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Lucinda ''Cindy'' Burke (Fiorina) (014), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Robert Bedell (Fiorina) (015), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Ryan P. McNicholas (Kasich) (016), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Paul A. Laliberte (Kasich) (017), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Richard J. Veenstra (Kasich) (018), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Jonathon H. Luers (Carson) (019), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Evan Jane Ellman (Carson) (020), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Laura M. Urbik Kern (Carson) (021), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Sophia Babiarz (Paul) (022), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Earon Shaw Rein (Paul) (023), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Sean T. Noonan (Rubio) (024), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Laura Mary Kotelman (Rubio) (025), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate William C. Beck (Rubio) (026), REP party, in race Alternate Delegate, Natl Conv 5th REP (0182) with 0 votes
+Parsed result for candidate Carol Smith Donovan (Bush) (001), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Brian Timpone (Bush) (002), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Kathleen A. Thomas (Bush) (003), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Lora Drobetsky (Trump) (004), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Steve Trimble (Trump) (005), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate John Simpson (Trump) (006), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Laura Lewandowski (Christie) (007), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Stephanie Guyett (Christie) (008), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Douglas Guyett (Christie) (009), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate James Francis Zangrilli (Cruz) (010), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Kerrie Reed (Cruz) (011), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Joshua Hammer (Cruz) (012), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Carl Segvich (Santorum) (013), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Corinne Williams (Fiorina) (014), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Jeff Halm (Fiorina) (015), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Kathryn ''Kayte'' Malik (Fiorina) (016), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Nancy J. Kimme (Kasich) (017), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate William Dean Smithburg (Kasich) (018), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Kreg T. Allison (Kasich) (019), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Amanda B. Dechavez (Carson) (020), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Thomas Edward McDonough (Carson) (021), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Bruce John Schulte (Carson) (022), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Grace Austin (Paul) (023), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Alberta Grossi-Antweiler (Paul) (024), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Eloise Gerson (Rubio) (025), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Michael Rolfes (Rubio) (026), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Brendan Seyring (Rubio) (027), REP party, in race Delegate, National Convention 7th REP (0183) with 0 votes
+Parsed result for candidate Aaron Brager (Trump) (001), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Janet Tavakoli (Trump) (002), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Daniel Conidi (Trump) (003), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Evan Andrew Feigenbaum (Bush) (004), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Gregory J. Hart (Bush) (005), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Mark S. Hosty (Bush) (006), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Suneet Lad (Christie) (007), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate William S. Zeiler (Christie) (008), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate William J. Zeiler (Christie) (009), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Michael Provenzano (Cruz) (010), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Matthew Limbert (Cruz) (011), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Wayne Heusel (Cruz) (012), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Jeffrey ''Jeff'' Durkes (Fiorina) (013), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Jennifer Koerner (Fiorina) (014), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Joseph ''Joe'' Dusek (Fiorina) (015), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Darlene Brown (Carson) (016), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Adrian J. Wright (Carson) (017), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Yvonne Franklin (Carson) (018), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Erin Broderick (Rubio) (019), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Thomas C. Cronin (Rubio) (020), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Eric Pulia (Rubio) (021), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Helene Marie Cissell (Kasich) (022), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Bruno H. Behrend (Kasich) (023), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Ellen Wesley (Kasich) (024), REP party, in race Alternate Delegate, Natl Conv 7th REP (0184) with 0 votes
+Parsed result for candidate Tyrone Fahner (Bush) (001), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Muneer Ahmad Satter (Bush) (002), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Katherine Dold White (Bush) (003), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate J. Blair Garber (Cruz) (004), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Jeffrey Stewart Shapiro (Cruz) (005), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Jill Dolan (Cruz) (006), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Nickolas Neubauer (Trump) (007), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Linda Lucchese (Trump) (008), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Ryan McElrath (Trump) (009), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Gary Vandenbroucke (Christie) (010), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Laura Vandenbroucke (Christie) (011), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate James R. Selegean (Christie) (012), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Penny Pullen (Santorum) (013), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Jeannine M. Como (Santorum) (014), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Mark R. Albers (Santorum) (015), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Stephen Cowen (Fiorina) (016), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Jennifer Cowen (Fiorina) (017), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Judy Ortega (Fiorina) (018), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate John A. Tsarpalas (Carson) (019), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate James D. Skyles (Carson) (020), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Jetta H. Boschen (Carson) (021), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Justin Eugene Kuehlthau (Paul) (022), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Michael Hager (Paul) (023), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Jim O'Donnell (Paul) (024), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate David C. Harris (Kasich) (025), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Brian Moran (Kasich) (026), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Pamela Kinsey Lungmus (Kasich) (027), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Marc Levine (Rubio) (028), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Susan Kelly Sweeney (Rubio) (029), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Kevin O'Connell (Rubio) (030), REP party, in race Delegate, National Convention 9th REP (0185) with 0 votes
+Parsed result for candidate Jasmine Velasco Hauser (Cruz) (001), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Joel B. Streightiff, Jr. (Cruz) (002), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Shprintza Spak (Cruz) (003), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Sandra Hodel-Runtz (Christie) (004), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Mark Crane (Christie) (005), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Joseph Tamraz (Christie) (006), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Nester Komolafe (Trump) (007), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Gerald DeNotto (Trump) (008), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Frank Bigga III (Trump) (009), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Daniel B. Peterson (Bush) (010), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Adam M. Robinson (Bush) (011), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Mary Childers (Bush) (012), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Joseph R. Hedrick (Santorum) (013), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Angela M. Como (Santorum) (014), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Steven Polit (Santorum) (015), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Carlos Ortega (Fiorina) (016), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Suzanne Devane (Fiorina) (017), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Diane Shapiro (Fiorina) (018), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Thomas Schild (Carson) (019), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Vivian L. Davros (Carson) (020), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Jeffrey J. Ross (Carson) (021), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate John C. Demler (Kasich) (022), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Carol A. Teschky (Kasich) (023), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Gregory J. Lungmus (Kasich) (024), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Alexander Paul Bisenius (Paul) (025), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Josh Gasbarra (Paul) (026), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Char Foss-Eggemann (Rubio) (027), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Douglas Gessner (Rubio) (028), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate Christopher Provenzano (Rubio) (029), REP party, in race Alternate Delegate, Natl Conv 9th REP (0186) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Senator, 1st District 4yr (0187) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Senator, 2nd District 2yr (0188) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Senator, 4th District 4yr (0189) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Senator, 5th District 2yr (0190) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Senator, 7th District 4yr (0191) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Senator, 8th District 2yr (0192) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Senator, 10th District 4yr (0193) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Senator, 11th District 2yr (0194) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Senator, 13th District 4yr (0195) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Senator, 14th District 2yr (0196) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Senator, 16th District 4yr (0197) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Senator, 17th District 2yr (0198) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Senator, 20th District 2yr (0199) with 0 votes
+Parsed result for candidate Mel Thillens (001), REP party, in race State Senator, 28th District 4yr (0200) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 1st District (0201) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 2nd District (0202) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 3rd District (0203) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 4th District (0204) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 5th District (0205) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 6th District (0206) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 8th District (0207) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 9th District (0208) with 0 votes
+Parsed result for candidate Mark Spognardi (001), REP party, in race State Representative, 10th District (0209) with 0 votes
+Parsed result for candidate Gary Mandell (001), REP party, in race State Representative, 11th District (0210) with 0 votes
+Parsed result for candidate Gene Witt (001), REP party, in race State Representative, 12th District (0211) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 13th District (0212) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 14th District (0213) with 0 votes
+Parsed result for candidate Jonathan Edelman (001), REP party, in race State Representative, 15th District (0214) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 16th District (0215) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 19th District (0216) with 0 votes
+Parsed result for candidate Michael P. McAuliffe (001), REP party, in race State Representative, 20th District (0217) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 21st District (0218) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 22nd District (0219) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 23rd District (0220) with 0 votes
+Parsed result for candidate Andy Kirchoff (001), REP party, in race State Representative, 24th District (0221) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 25th District (0222) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 26th District (0223) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 27th District (0224) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 28th District (0225) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 29th District (0226) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 31st District (0227) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 32nd District (0228) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 33rd District (0229) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 34th District (0230) with 0 votes
+Parsed result for candidate Victor Horne (001), REP party, in race State Representative, 35th District (0231) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 36th District (0232) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 39th District (0233) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 40th District (0234) with 0 votes
+Parsed result for candidate Dan Gott (001), REP party, in race State Representative, 55th District (0235) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race State Representative, 78th District (0236) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Commissioner, Water Reclamation Dist (0237) with 0 votes
+Parsed result for candidate No Candidate (002), REP party, in race Commissioner, Water Reclamation Dist (0237) with 0 votes
+Parsed result for candidate No Candidate (003), REP party, in race Commissioner, Water Reclamation Dist (0237) with 0 votes
+Parsed result for candidate Herb Schumann (001), REP party, in race Commissioner, Water Reclamation Dist 2yr (0238) with 0 votes
+Parsed result for candidate Christopher E.K. Pfannkuche (001), REP party, in race State's Attorney, Cook County (0239) with 0 votes
+Parsed result for candidate Diane S. Shapiro (001), REP party, in race Clerk of the Circuit Court, Cook County (0240) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Recorder of Deeds, Cook County (0241) with 0 votes
+Parsed result for candidate Dan Patlak (001), REP party, in race Board of Review, 1st District (0242) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Board of Review, 2nd District (0243) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Appellate Court Judge (Vacancy of Epstein) (0244) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Appellate Court Judge (Vacancy of Quinn) (0245) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Circuit Court Judge (Vacancy of Biebel, Jr.) (0246) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Circuit Court Judge (Vacancy of Elrod) (0247) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Circuit Court Judge (Vacancy of Hogan) (0248) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Circuit Court Judge (Vacancy of Howlett, Jr.) (0249) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Circuit Court Judge (Vacancy of Johnson) (0250) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Circuit Court Judge (Vacancy of Karnezis) (0251) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Circuit Court Judge (Vacancy of Love) (0252) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Circuit Court Judge (Vacancy of O'Brien) (0253) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Circuit Court Judge (Vacancy of Palmer) (0254) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Circuit Court Judge (Vacancy of Ruscitti Grussel) (0255) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Circuit Court Judge (Vacancy of Walsh) (0256) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Judge, 1st Subcircuit (Vacancy of Brim) (0257) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Judge, 1st Subcircuit (Vacancy of Hopkins) (0258) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Judge, 2nd Subcircuit (Vacancy of Savage) (0259) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Judge, 5th Subcircuit (Vacancy of Eadie-Daniels) (0260) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Judge, 5th Subcircuit (Vacancy of Stuart) (0261) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Judge, 5th Subcircuit (Vacancy of Williams) (0262) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Judge, 6th Subcircuit (Vacancy of Ponce de Leon) (0263) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Judge, 6th Subcircuit (Vac of Gonzalez Santiago) (0264) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Judge, 6th Subcircuit (Additional Judgeship A) (0265) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Judge, 7th Subcircuit (Vacancy of Burrell) (0266) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Judge, 7th Subcircuit (Vac of Rivkin-Carothers) (0267) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Judge, 9th Subcircuit (Vacancy of Berman) (0268) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Judge, 10th Subcircuit (Vacancy of Howard) (0269) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Judge, 11th Subcircuit (Vacancy of Kelly) (0270) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Judge, 11th Subcircuit (Vacancy of Zwick) (0271) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Judge, 14th Subcircuit (Vacancy of Ruble Murphy) (0272) with 0 votes
+Parsed result for candidate Mark Calonder (001), REP party, in race Ward Committeeman, Rep 1st (0273) with 0 votes
+Parsed result for candidate Eloise Gerson (001), REP party, in race Ward Committeeman, Rep 2nd (0274) with 0 votes
+Parsed result for candidate Adrian J Wright (001), REP party, in race Ward Committeeman, Rep 3rd (0275) with 0 votes
+Parsed result for candidate Lori Yokoyama (001), REP party, in race Ward Committeeman, Rep 4th (0276) with 0 votes
+Parsed result for candidate Matthew Foldi (001), REP party, in race Ward Committeeman, Rep 5th (0277) with 0 votes
+Parsed result for candidate Darnell B. Macklin (001), REP party, in race Ward Committeeman, Rep 6th (0278) with 0 votes
+Parsed result for candidate Philanise White (001), REP party, in race Ward Committeeman, Rep 7th (0279) with 0 votes
+Parsed result for candidate Lynn Renee Franco (001), REP party, in race Ward Committeeman, Rep 8th (0280) with 0 votes
+Parsed result for candidate Wayland Johnson Jr. (001), REP party, in race Ward Committeeman, Rep 9th (0281) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Ward Committeeman, Rep 10th (0282) with 0 votes
+Parsed result for candidate Carl Segvich (001), REP party, in race Ward Committeeman, Rep 11th (0283) with 0 votes
+Parsed result for candidate Richard A. Catezone (002), REP party, in race Ward Committeeman, Rep 11th (0283) with 0 votes
+Parsed result for candidate Antonio Mannings (001), REP party, in race Ward Committeeman, Rep 12th (0284) with 0 votes
+Parsed result for candidate Gabriel Trejo (001), REP party, in race Ward Committeeman, Rep 13th (0285) with 0 votes
+Parsed result for candidate Vilma F. Garcia (001), REP party, in race Ward Committeeman, Rep 14th (0286) with 0 votes
+Parsed result for candidate Emma Walsh (002), REP party, in race Ward Committeeman, Rep 14th (0286) with 0 votes
+Parsed result for candidate Rosa Pritchett (001), REP party, in race Ward Committeeman, Rep 15th (0287) with 0 votes
+Parsed result for candidate Richard Munnich (001), REP party, in race Ward Committeeman, Rep 16th (0288) with 0 votes
+Parsed result for candidate Sherri Griffith (001), REP party, in race Ward Committeeman, Rep 17th (0289) with 0 votes
+Parsed result for candidate William Mr ''D'' Delay (001), REP party, in race Ward Committeeman, Rep 18th (0290) with 0 votes
+Parsed result for candidate Symeon Brown (002), REP party, in race Ward Committeeman, Rep 18th (0290) with 0 votes
+Parsed result for candidate Steven S. Graves (001), REP party, in race Ward Committeeman, Rep 19th (0291) with 0 votes
+Parsed result for candidate Danny Carbol (002), REP party, in race Ward Committeeman, Rep 19th (0291) with 0 votes
+Parsed result for candidate Maria Bailey (001), REP party, in race Ward Committeeman, Rep 20th (0292) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Ward Committeeman, Rep 21st (0293) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Ward Committeeman, Rep 22nd (0294) with 0 votes
+Parsed result for candidate Robert J. Handzik (001), REP party, in race Ward Committeeman, Rep 23rd (0295) with 0 votes
+Parsed result for candidate Larry G. Nelson (001), REP party, in race Ward Committeeman, Rep 24th (0296) with 0 votes
+Parsed result for candidate Martin Ozinga IV (001), REP party, in race Ward Committeeman, Rep 25th (0297) with 0 votes
+Parsed result for candidate Jason Wroble (001), REP party, in race Ward Committeeman, Rep 26th (0298) with 0 votes
+Parsed result for candidate Mark Spognardi (001), REP party, in race Ward Committeeman, Rep 27th (0299) with 0 votes
+Parsed result for candidate Eric Pulia (001), REP party, in race Ward Committeeman, Rep 28th (0300) with 0 votes
+Parsed result for candidate Frances ''Fran'' Sapone (001), REP party, in race Ward Committeeman, Rep 29th (0301) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Ward Committeeman, Rep 30th (0302) with 0 votes
+Parsed result for candidate Bob Howington (001), REP party, in race Ward Committeeman, Rep 31st (0303) with 0 votes
+Parsed result for candidate Stephen Rossi (001), REP party, in race Ward Committeeman, Rep 32nd (0304) with 0 votes
+Parsed result for candidate Stan Bartkus (001), REP party, in race Ward Committeeman, Rep 33rd (0305) with 0 votes
+Parsed result for candidate Percy V. Coleman (001), REP party, in race Ward Committeeman, Rep 34th (0306) with 0 votes
+Parsed result for candidate Walter Zarnecki (001), REP party, in race Ward Committeeman, Rep 35th (0307) with 0 votes
+Parsed result for candidate Brent Mulvey (002), REP party, in race Ward Committeeman, Rep 35th (0307) with 0 votes
+Parsed result for candidate Sammy Tenuta (001), REP party, in race Ward Committeeman, Rep 36th (0308) with 0 votes
+Parsed result for candidate George McKinley (001), REP party, in race Ward Committeeman, Rep 37th (0309) with 0 votes
+Parsed result for candidate Peter P. Podgorski (001), REP party, in race Ward Committeeman, Rep 38th (0310) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Ward Committeeman, Rep 39th (0311) with 0 votes
+Parsed result for candidate Daniel J. Kelley (001), REP party, in race Ward Committeeman, Rep 40th (0312) with 0 votes
+Parsed result for candidate Michael P. McAuliffe (001), REP party, in race Ward Committeeman, Rep 41st (0313) with 0 votes
+Parsed result for candidate Rita Zak (001), REP party, in race Ward Committeeman, Rep 42nd (0314) with 0 votes
+Parsed result for candidate Chris Cleveland (001), REP party, in race Ward Committeeman, Rep 43rd (0315) with 0 votes
+Parsed result for candidate Scott Davis (001), REP party, in race Ward Committeeman, Rep 44th (0316) with 0 votes
+Parsed result for candidate Roisin M. Dohl (001), REP party, in race Ward Committeeman, Rep 45th (0317) with 0 votes
+Parsed result for candidate Diane S. Shapiro (001), REP party, in race Ward Committeeman, Rep 46th (0318) with 0 votes
+Parsed result for candidate Jessica White (001), REP party, in race Ward Committeeman, Rep 47th (0319) with 0 votes
+Parsed result for candidate Edward L. Bowe (001), REP party, in race Ward Committeeman, Rep 48th (0320) with 0 votes
+Parsed result for candidate Kurt Fujio (001), REP party, in race Ward Committeeman, Rep 49th (0321) with 0 votes
+Parsed result for candidate No Candidate (001), REP party, in race Ward Committeeman, Rep 50th (0322) with 0 votes
+Parsed result for candidate Rob Sherman (001), GRN party, in race U.S. Representative, 5th District (0323) with 0 votes
+Parsed result for candidate Warren ''Grizz'' Grimsley (002), GRN party, in race U.S. Representative, 5th District (0323) with 0 votes
+Parsed result for candidate Michael Braboy (001), GRN party, in race Ward Committeeman, Grn 3rd (0324) with 0 votes
+Parsed result for candidate Elvin McMillian (001), GRN party, in race Ward Committeeman, Grn 20th (0325) with 0 votes
+Parsed result for candidate John ''Jack'' Ailey (001), GRN party, in race Ward Committeeman, Grn 22nd (0326) with 0 votes
+Parsed result for candidate No Candidate (001), GRN party, in race Ward Committeeman, Grn 23rd (0327) with 0 votes
+Parsed result for candidate Antonne ''Tony'' Cox (001), GRN party, in race Ward Committeeman, Grn 24th (0328) with 0 votes
+Parsed result for candidate Christopher Anthony (001), GRN party, in race Ward Committeeman, Grn 25th (0329) with 0 votes
+Parsed result for candidate No Candidate (001), GRN party, in race Ward Committeeman, Grn 29th (0330) with 0 votes
+Parsed result for candidate Verne Peterson (001), GRN party, in race Ward Committeeman, Grn 33rd (0331) with 0 votes
+Parsed result for candidate Nancy Wade (001), GRN party, in race Ward Committeeman, Grn 47th (0332) with 0 votes
+Parsed result for candidate George Milkowski (001), GRN party, in race Ward Committeeman, Grn 50th (0333) with 0 votes
+Parsed result for candidate Yes (001), no party, in race W29-Voting Rights (0334) with 0 votes
+Parsed result for candidate No (002), no party, in race W29-Voting Rights (0334) with 0 votes
+Parsed result for candidate Yes (001), no party, in race W32-Logan Sq. Zoning (0335) with 0 votes
+Parsed result for candidate No (002), no party, in race W32-Logan Sq. Zoning (0335) with 0 votes

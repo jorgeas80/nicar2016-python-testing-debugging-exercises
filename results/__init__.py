@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 # the debug messages in our code
 logger.setLevel(logging.DEBUG)
 
-# And make a handler that sends log messages to a file 
+# And make a handler that sends log messages to a file
 handler = logging.FileHandler('results_log.txt')
 logger.addHandler(handler)
 
@@ -54,22 +54,22 @@ class ChicagoResultsLoader(object):
 
     def parse_result(self, line):
         fields = [
-            ('contest_code', 0, 4, unicode),
-            ('candidate_number', 4, 3, unicode),
+            ('contest_code', 0, 4, str),
+            ('candidate_number', 4, 3, str),
             ('num_eligible_precincts', 7, 4, int),
             ('votes', 11, 7, int),
             ('num_completed_precincts', 18, 4, int),
-            ('party_abbreviation', 22, 3, unicode),
-            ('political_subdivision_abbreviation', 25, 7, unicode),
-            ('contest_name', 32, 56, unicode),
-            ('candidate_name', 88, 38, unicode),
-            ('political_subdivision_name', 126, 25, unicode),
+            ('party_abbreviation', 22, 3, str),
+            ('political_subdivision_abbreviation', 25, 7, str),
+            ('contest_name', 32, 56, str),
+            ('candidate_name', 88, 38, str),
+            ('political_subdivision_name', 126, 25, str),
             ('vote_for', 151, 3, int),
         ]
 
         result = {}
 
-        line_len = len(line) 
+        line_len = len(line)
         for field_name, field_start, field_length, parser in fields:
             if field_start >= line_len:
                 break
@@ -78,7 +78,7 @@ class ChicagoResultsLoader(object):
             field_raw = field_raw.strip()
             result[field_name] = parser(field_raw)
 
-        return result    
+        return result
 
     def load(self, path):
         results = []
@@ -95,14 +95,14 @@ class ChicagoResultsLoader(object):
                                 result['contest_name'],
                                 result['contest_code'],
                                 result['votes'])
-                            
+
                 else:
                     msg = (u"Parsed result for candidate number {} in race with "
                             "id {} with {} votes").format(
                                 result['candidate_number'],
                                 result['contest_code'],
                                 result['votes'])
-                            
+
                 # If you just want to debug messages to the root logger, do
                 # this:
                 # logging.debug(msg)
