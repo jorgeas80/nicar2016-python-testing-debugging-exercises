@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+# We're printint non-ASCII characters in the comments (see line 63). So, we need to declare this file with a valid encoding to allow those characters
+
+import codecs
+
 class BrokenChicagoResultsLoader(object):
     """
     Parse Chicago Board of Elections Results File.
@@ -30,43 +35,30 @@ class BrokenChicagoResultsLoader(object):
             ('party_abbreviation', 22, 3, str),
             ('political_subdivision_abbreviation', 25, 7, str),
             ('contest_name', 32, 56, str),
-            ('candidate_name', 88, 38, str),
+            ('candidate_name', 88, 38, unicode),    # The name may contain non-ASCII characters. We use unicode
             ('political_subdivision_name', 126, 25, str),
             ('vote_for', 151, 3, int),
         ]
-        with open(path, 'r') as f:
-            for line in f:
+
+        # As the file we're reading contains non-ASCII characters, we open it using codecs.open and specifying utf-8 as encoding.
+        # Check https://docs.python.org/2/library/codecs.html#codecs.open
+        with codecs.open(path, 'r', encoding='utf-8') as f:
+            for line in f.readlines():
                 result = {}
                 for field_name, field_start, field_length, parser in fields:
                     field_raw = line[field_start:field_start + field_length]
                     field_raw = field_raw.strip()
                     try:
                         result[field_name] = parser(field_raw)
-                    except Exception:
+                    except Exception as e:
+                        import pdb; pdb.set_trace()
                         # From the output of unittest, we know the error
                         # occurred with this call in the code.  Catch
                         # the exception and start the debugger
-                        import sys
-                        import pdb
-                        exc_name, exc_value, exc_traceback = sys.exc_info()
-                        pdb.post_mortem(exc_traceback)
+                        print(e)
                         # Once in the debugger, I'd use print() to look at some
                         # of the variables in the frame:
                         #
-                        # > /Users/ghing/Dropbox/nicar2016/nicar2016-python-testing-debugging-excercises/results/broken.py(44)load()
-                        # -> result[field_name] = parser(field_raw)
-                        # (Pdb) l
-                        #  44                             result[field_name] = parser(field_raw)
-                        #  45                         except Exception:
-                        #  46                             import sys
-                        #  47                             import pdb
-                        #  48                             exc_name, exc_value, exc_traceback = sys.exc_info()
-                        #  49  ->                         pdb.post_mortem(exc_traceback)
-                        #  50
-                        #  51                     results.append(result)
-                        #  52
-                        #  53             return results
-                        # [EOF]
                         # (Pdb) print(field_raw)
                         # Álvaro R. Obregón (Sanders)
                         # (Pdb) print(line)
@@ -74,7 +66,9 @@ class BrokenChicagoResultsLoader(object):
                         #
                         # It looks like the issue is that there are non-ASCII
                         # characters in the data that we'll have to handle
-                        # somehow
+                        # somehow. So, we:
+                        #   - Opened the file with codecs.open, to specify UTF-8 encoding
+                        #   - Read the candidate_name using unicode() instead of str()
 
                 results.append(result)
 
