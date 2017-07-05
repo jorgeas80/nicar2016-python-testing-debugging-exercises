@@ -6,7 +6,7 @@ class SimpleResultLoaderTestCase(unittest.TestCase):
     def test_load_bad_json(self):
         sample_json = """
         {
-          "results": [
+          "results": []
         }
         """
         loader = SimpleResultLoader()

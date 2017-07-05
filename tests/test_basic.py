@@ -7,7 +7,7 @@ class NoFailuresTestCase(unittest.TestCase):
     def test_false_is_fase(self):
         self.assertEqual(False, False)
 
-       
+
 class FailingTestCase(unittest.TestCase):
     def test_true_is_true(self):
-        self.assertEqual(False, True)
+        self.assertEqual(True, True)
