@@ -35,7 +35,7 @@ class ChicagoResultsLoader(object):
     def load(self, path):
         results = []
         fields = [
-            ('contest_code', 1, 4, str),
+            ('contest_code', 0, 4, str),
             ('candidate_number', 4, 3, str),
             ('num_eligible_precincts', 7, 4, int),
             ('votes', 11, 7, int),
